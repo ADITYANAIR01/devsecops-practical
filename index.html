@@ -1,0 +1,3225 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aditya Nair | Cloud &amp; DevOps Student</title>
+<meta name="description" content="Aditya Nair — Cloud & DevOps student building practical AWS, automation, and IoT systems." />
+<meta name="author" content="Aditya Nair" />
+<meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#f7f4ee" />
+<meta name="color-scheme" content="light dark" />
+<meta property="og:title" content="Aditya Nair | Cloud & DevOps Student" />
+<meta property="og:description" content="Single-file portfolio featuring Aditya Nair's cloud, DevOps, AWS, and IoT projects." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.adityanair.tech" />
+<meta property="og:site_name" content="Aditya Nair Portfolio" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://www.adityanair.tech" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://www.adityanair.tech" />
+<meta name="twitter:title" content="Aditya Nair | Cloud & DevOps Student" />
+<meta name="twitter:description" content="Single-file portfolio featuring cloud, DevOps, AWS, and IoT work by Aditya Nair." />
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/ADITYANAIR01?size=1200" />
+<meta name="twitter:image:alt" content="Aditya Nair" />
+<meta property="og:image" content="https://avatars.githubusercontent.com/ADITYANAIR01?size=1200" />
+<meta property="og:image:alt" content="Aditya Nair" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="dns-prefetch" href="//api.github.com" />
+<link rel="preconnect" href="https://api.github.com" />
+<link rel="preconnect" href="https://avatars.githubusercontent.com" />
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMDAgMTAwJz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2cnIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz48c3RvcCBvZmZzZXQ9JzAnIHN0b3AtY29sb3I9JyNmZjRkMDAnLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyM1YjRiZmYnLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0nMTAwJyBoZWlnaHQ9JzEwMCcgcng9JzI0JyBmaWxsPSd1cmwoI2cpJy8+PHRleHQgeD0nNTAnIHk9JzY4JyB0ZXh0LWFuY2hvcj0nbWlkZGxlJyBmb250LWZhbWlseT0nc2Fucy1zZXJpZicgZm9udC1zaXplPSc0NicgZm9udC13ZWlnaHQ9JzcwMCcgZmlsbD0nIzA0MGIxNCc+QU48L3RleHQ+PC9zdmc+Cg==" />
+<link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/ADITYANAIR01?size=180" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800;900&amp;family=Space+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "Person", "name": "Aditya Nair", "jobTitle": "Cloud and DevOps Student", "email": "mailto:adityanairtech@gmail.com", "url": "https://www.adityanair.tech", "sameAs": ["https://www.adityanair.tech", "https://github.com/ADITYANAIR01", "https://linkedin.com/in/aditya-nair01"], "knowsAbout": ["AWS", "DevOps", "Linux", "Docker", "Python", "IoT"]}
+</script>
+<script>
+(() => {
+  const safeGet = () => { try { return localStorage.getItem('portfolio-theme'); } catch (_e) { return null; } };
+  const stored = safeGet();
+  const dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  document.documentElement.classList.add('js');
+  document.documentElement.setAttribute('data-theme', stored === 'light' || stored === 'dark' ? stored : dark ? 'dark' : 'light');
+})();
+</script>
+<style>
+/* ============ RECONSTRUCTED V2 — editorial / ledger system ============ */
+:root {
+  --paper: #f4f1e9; --paper2: #ece7d9;
+  --ink: #131210; --muted: #5c574a; --faint: #8a8474;
+  --line: rgba(19,18,16,.16); --hair: rgba(19,18,16,.10);
+  --accent: #ff4d00; --accent2: #4b3dff; --ok: #0a8a5c;
+  --card: #faf8f2;
+  --shadow: 0 24px 60px rgba(19,18,16,.12);
+  --header-bg: rgba(244,241,233,.85);
+  --chip: rgba(250,248,242,.7);
+  --code-bg: #131210; --code-ink: #f2efe6; --code-dim: #b7b0a0;
+  --radius: 14px; --max: 1180px;
+  --display: "Archivo", "Space Grotesk", system-ui, sans-serif;
+  --body: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+  color-scheme: light;
+}
+html[data-theme="dark"] {
+  --paper: #060807; --paper2: #0b0f0d;
+  --ink: #f0efe9; --muted: #a3a094; --faint: #6d6a60;
+  --line: rgba(240,239,233,.18); --hair: rgba(240,239,233,.10);
+  --accent: #ff6a2b; --accent2: #9d8cff; --ok: #34d399;
+  --card: #0c100e;
+  --shadow: 0 30px 70px rgba(0,0,0,.55);
+  --header-bg: rgba(6,8,7,.82);
+  --chip: rgba(12,16,14,.6);
+  --code-bg: #0c100e; --code-ink: #eef4ec; --code-dim: #8fa08f;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+@media (pointer: fine) { html { overscroll-behavior: none; } }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; min-height: 100vh; color: var(--ink); background: var(--paper);
+  font-family: var(--body);
+  background-image: radial-gradient(900px 480px at 85% -5%, color-mix(in srgb, var(--accent) 9%, transparent), transparent 60%);
+  transition: background-color .3s ease, color .3s ease;
+}
+a { color: inherit; text-decoration: none; touch-action: manipulation; -webkit-tap-highlight-color: rgba(255,77,0,.25); }
+button { font: inherit; touch-action: manipulation; -webkit-tap-highlight-color: rgba(255,77,0,.25); }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--accent2); outline-offset: 3px; border-radius: 4px;
+}
+img { display: block; max-width: 100%; }
+h1, h2, h3 { text-wrap: balance; margin-top: 0; }
+p { margin-top: 0; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.wrap { width: min(calc(100% - 2.5rem), var(--max)); margin: 0 auto; position: relative; z-index: 1; }
+.skip-link { position: absolute; left: 1rem; top: -4rem; z-index: 400; padding: .85rem 1.1rem; border-radius: 999px; background: var(--ink); color: var(--paper); font-weight: 700; transition: top .2s ease; }
+.skip-link:focus-visible { top: 1rem; }
+/* ---- top bar ---- */
+.topbar { position: sticky; top: 0; z-index: 200; background: var(--header-bg); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid var(--hair); padding-left: max(0px, env(safe-area-inset-left)); padding-right: max(0px, env(safe-area-inset-right)); }
+.topbar-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .7rem 0; }
+.brand { display: inline-flex; align-items: center; gap: .65rem; min-width: 0; font-family: var(--mono); font-size: .85rem; }
+.brand-mark { width: 34px; height: 34px; flex: 0 0 auto; display: grid; place-items: center; border-radius: 9px; font-weight: 900; font-family: var(--display); font-size: .8rem; color: #fff; background: linear-gradient(135deg, var(--accent), var(--accent2)); }
+.brand small { display: block; color: var(--muted); font-size: .66rem; letter-spacing: .06em; }
+.nav-links { display: flex; gap: .1rem; list-style: none; margin: 0; padding: 0; }
+.nav-links a { padding: .55rem .7rem; font-family: var(--mono); font-size: .76rem; letter-spacing: .04em; color: var(--muted); border-radius: 8px; transition: color .2s ease, background-color .2s ease; }
+.nav-links a .n { color: var(--faint); margin-right: .3rem; }
+.nav-links a:hover { color: var(--ink); background: var(--hair); }
+.nav-links a.is-active { color: var(--ink); background: var(--hair); box-shadow: inset 0 -2px 0 var(--accent); }
+.topbar-tools { display: flex; align-items: center; gap: .6rem; }
+.avail { display: inline-flex; align-items: center; gap: .45rem; font-family: var(--mono); font-size: .7rem; color: var(--muted); white-space: nowrap; }
+.avail i { width: 8px; height: 8px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 0 4px color-mix(in srgb, var(--ok) 18%, transparent); }
+.theme-toggle { display: inline-flex; align-items: center; gap: .45rem; border: 1px solid var(--line); background: transparent; color: var(--ink); border-radius: 999px; padding: .45rem .75rem; font-family: var(--mono); font-size: .72rem; font-weight: 600; cursor: pointer; transition: border-color .2s ease, background-color .2s ease, transform .2s ease; }
+.theme-toggle:hover { border-color: var(--accent); transform: translateY(-1px); }
+.theme-toggle .sun, .theme-toggle .moon { font-size: .75rem; }
+.theme-toggle .sun { color: var(--accent); }
+.theme-toggle .moon { color: var(--accent2); }
+/* ---- hero: full-bleed editorial ---- */
+.hero { border-bottom: 1px solid var(--line); padding: clamp(1.2rem,3vw,2.4rem) 0 0; }
+.hero-meta { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font-family: var(--mono); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding-bottom: 1.2rem; border-bottom: 1px solid var(--hair); }
+.hero-meta .pulse { color: var(--ok); }
+.hero-display { font-family: var(--display); font-weight: 900; text-transform: uppercase; font-size: clamp(3.4rem, 11.5vw, 9.5rem); line-height: .88; letter-spacing: -.03em; margin: clamp(1.4rem,3vw,2.6rem) 0 1rem; }
+.hero-display .outline { color: transparent; -webkit-text-stroke: 2px var(--ink); }
+.hero-display .flash { color: var(--accent); -webkit-text-stroke: 0; }
+.hero-sub { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.4rem,3vw,3rem); padding-bottom: clamp(1.6rem,3vw,2.6rem); align-items: end; }
+.role-line { font-family: var(--mono); font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent2); margin-bottom: .9rem; }
+.tagline { font-family: var(--display); font-weight: 800; font-size: clamp(1.4rem, 2.6vw, 2.1rem); line-height: 1.08; letter-spacing: -.02em; margin-bottom: .9rem; max-width: 22ch; }
+.section-copy { color: var(--muted); font-size: clamp(1rem,.4vw + .95rem,1.08rem); line-height: 1.7; max-width: 62ch; overflow-wrap: break-word; }
+.hero-copy .eyebrow { display: inline-flex; align-items: center; gap: .5rem; font-family: var(--mono); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: .45rem .8rem; margin-bottom: 1rem; }
+.hero-copy .eyebrow::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--ok); }
+.cta-row { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.5rem; }
+.btn { display: inline-flex; align-items: center; gap: .55rem; font-weight: 700; font-size: .92rem; padding: .9rem 1.3rem; border-radius: 10px; border: 1px solid var(--ink); transition: transform .2s ease, background-color .2s ease, color .2s ease, border-color .2s ease, box-shadow .2s ease; }
+.btn-primary { background: var(--ink); color: var(--paper); }
+.btn-primary:hover { transform: translate(-2px,-2px); box-shadow: 4px 4px 0 var(--accent); border-color: var(--ink); }
+.btn-ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+.btn-ghost:hover { transform: translate(-2px,-2px); box-shadow: 4px 4px 0 var(--accent2); border-color: var(--ink); }
+.pill-link { display: inline-flex; align-items: center; gap: .5rem; font-family: var(--mono); font-size: .8rem; color: var(--muted); border-bottom: 1px solid var(--line); padding: .4rem .1rem; transition: color .2s ease, border-color .2s ease; }
+.pill-link:hover { color: var(--ink); border-color: var(--accent); }
+.quick-links { display: flex; flex-wrap: wrap; gap: 1.1rem; margin-top: 1.2rem; }
+/* stat band */
+.statband { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); border-top: 1px solid var(--line); }
+.stat { padding: 1.1rem 1.2rem 1.2rem 0; border-right: 1px solid var(--hair); margin-right: 1.2rem; }
+.stat:last-child { border-right: 0; margin-right: 0; }
+.stat-label { display: block; font-family: var(--mono); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: .3rem; }
+.stat-value { font-family: var(--display); font-weight: 900; font-size: clamp(1.8rem,3vw,2.6rem); font-variant-numeric: tabular-nums; line-height: 1; }
+.stat-note { color: var(--muted); font-size: .8rem; margin-top: .3rem; }
+/* ---- sections ---- */
+main { position: relative; z-index: 1; }
+section.block { padding: clamp(3.5rem,6vw,5.5rem) 0; scroll-margin-top: 4.5rem; border-bottom: 1px solid var(--line); }
+.sec-head { display: grid; grid-template-columns: auto 1fr; gap: 1.2rem 1.6rem; align-items: baseline; margin-bottom: 2rem; }
+.sec-index { font-family: var(--display); font-weight: 900; font-size: clamp(2.6rem,5vw,4.2rem); line-height: 1; color: transparent; -webkit-text-stroke: 1.5px var(--faint); }
+.sec-kicker { font-family: var(--mono); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: .5rem; display: block; }
+.sec-head h2 { font-family: var(--display); font-weight: 900; text-transform: uppercase; font-size: clamp(1.9rem,4vw,3rem); letter-spacing: -.02em; line-height: .95; margin: 0; }
+.sec-lede { grid-column: 2; }
+/* ---- work ledger ---- */
+.sync-meta { font-variant-numeric: tabular-nums; }
+.projects-grid { counter-reset: work; border-top: 2px solid var(--ink); }
+.project-card { counter-increment: work; display: grid; grid-template-columns: 64px 1fr auto; gap: .4rem 1.4rem; padding: 1.6rem .4rem; border-bottom: 1px solid var(--line); position: relative; transition: background-color .25s ease, padding-left .25s ease; }
+.project-card::before { content: "0" counter(work); grid-row: 1 / span 4; font-family: var(--display); font-weight: 900; font-size: 1.1rem; color: var(--faint); padding-top: .2rem; font-variant-numeric: tabular-nums; }
+.project-card:hover { background: color-mix(in srgb, var(--accent2) 6%, transparent); padding-left: .9rem; }
+.project-card::after { display: none; }
+.project-top { display: flex; align-items: center; gap: .8rem; }
+.project-type { font-family: var(--mono); color: var(--accent); font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; }
+.project-icon { display: none; }
+.project-card h3 { font-family: var(--display); font-weight: 900; text-transform: uppercase; font-size: clamp(1.5rem,2.6vw,2.2rem); letter-spacing: -.01em; line-height: 1; margin: .35rem 0 .5rem; overflow-wrap: break-word; }
+.project-card p { color: var(--muted); line-height: 1.65; max-width: 62ch; overflow-wrap: break-word; margin-bottom: 0; }
+.project-tags, .lab-chips { display: flex; flex-wrap: wrap; gap: .45rem; }
+.project-tags::before, .lab-chips::before { content: none; }
+.project-tags { margin: .9rem 0 0; }
+.project-tags span, .lab-chips span { font-family: var(--mono); font-size: .7rem; letter-spacing: .04em; padding: .35rem .6rem; border: 1px solid var(--line); border-radius: 6px; color: var(--muted); background: transparent; }
+.project-footer { grid-column: 3; grid-row: 1 / span 4; display: flex; flex-direction: column; align-items: flex-end; justify-content: center; gap: .6rem; padding: 0; }
+.project-meta { font-family: var(--mono); font-size: .7rem; color: var(--faint); font-variant-numeric: tabular-nums; text-align: right; }
+.project-footer .btn { border-radius: 999px; padding: .65rem 1rem; font-size: .8rem; font-family: var(--mono); font-weight: 600; }
+.project-footer .btn::after { content: " ↗"; }
+/* ---- arsenal ledger ---- */
+.arsenal-bar { display: flex; justify-content: space-between; align-items: end; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
+.lab-grid { display: grid; grid-template-columns: 1fr 1fr; border-top: 2px solid var(--ink); }
+.lab-tile { border-bottom: 1px solid var(--line); padding: 1.2rem .4rem; min-width: 0; transition: background-color .25s ease, padding-left .25s ease; }
+.lab-tile:nth-child(odd) { border-right: 1px solid var(--hair); padding-right: 1.4rem; }
+.lab-tile:nth-child(even) { padding-left: 1.4rem; }
+.lab-tile:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+.lab-tile strong { display: flex; align-items: center; gap: .6rem; font-family: var(--display); font-weight: 800; text-transform: uppercase; font-size: 1.02rem; letter-spacing: 0; overflow-wrap: break-word; }
+.lab-tile strong::before { content: "▸"; color: var(--accent); }
+.lab-tile > span { display: block; color: var(--muted); font-size: .87rem; line-height: 1.6; margin-top: .4rem; overflow-wrap: break-word; }
+.lab-chips { margin-top: .7rem; }
+/* ---- experience timeline ---- */
+.timeline { border-top: 2px solid var(--ink); }
+.resume-card { display: grid; grid-template-columns: 220px 1fr; gap: 1.4rem; padding: 1.8rem .4rem; border-bottom: 1px solid var(--line); background: transparent; border-left: 0; border-right: 0; border-radius: 0; box-shadow: none; min-width: 0; }
+.resume-card-header { display: flex; flex-direction: column; align-items: flex-start; gap: .6rem; margin: 0; }
+.resume-card-header i { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 10px; color: #fff; background: linear-gradient(135deg, var(--accent), var(--accent2)); }
+.resume-card-header h3 { font-family: var(--mono); font-size: .74rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0; font-weight: 600; }
+.resume-entries { display: grid; gap: 1.2rem; }
+.resume-entry { display: grid; grid-template-columns: 1fr auto; gap: .2rem .8rem; align-items: baseline; border-left: 2px solid var(--line); padding-left: 1.1rem; position: relative; }
+.resume-entry::before { content: ""; position: absolute; left: -6px; top: .35rem; width: 10px; height: 10px; border-radius: 50%; background: var(--paper); border: 2px solid var(--accent); }
+.resume-entry strong { font-family: var(--display); font-weight: 800; font-size: 1.15rem; overflow-wrap: break-word; }
+.resume-institution { color: var(--muted); font-size: .9rem; grid-column: 1; }
+.resume-dates { font-family: var(--mono); font-size: .74rem; color: var(--accent2); grid-row: 1; grid-column: 2; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.resume-detail { color: var(--muted); font-size: .88rem; grid-column: 1; }
+.resume-tags { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .2rem; }
+.resume-tag { font-family: var(--mono); font-size: .74rem; padding: .45rem .75rem; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); background: transparent; }
+.resume-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1rem; }
+.resume-actions .btn, .resume-actions .pill-link { font-size: .8rem; padding: .65rem 1rem; }
+.resume-viewer-hint { display: flex; align-items: center; gap: .6rem; margin-top: 1rem; padding: .65rem .8rem; border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--line)); border-radius: 8px; color: var(--muted); font-family: var(--mono); font-size: .72rem; line-height: 1.5; animation: resume-hint-pulse 2.4s ease-in-out infinite; }
+.resume-viewer-hint strong { color: var(--accent); font-weight: 600; }
+.resume-viewer-wrap { position: relative; }
+.resume-viewer-arrow { position: absolute; z-index: 2; top: 1rem; left: -2.2rem; color: #ff2d20; font-family: Arial, sans-serif; font-size: 2rem; font-weight: 700; line-height: 1; pointer-events: none; }
+.resume-preview { width: 100%; min-height: 340px; margin-top: 1rem; border: 1px solid var(--line); border-radius: 10px; background: var(--chip); }
+@keyframes resume-hint-pulse { 0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 0%, transparent); } 50% { box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 12%, transparent); } }
+/* ---- stack rows ---- */
+.skills-grid { counter-reset: stack; border-top: 2px solid var(--ink); display: block; }
+.skill-card { counter-increment: stack; display: grid; grid-template-columns: 56px 52px 200px 1fr; gap: 1rem; align-items: center; padding: 1.05rem .4rem; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; box-shadow: none; text-align: left; transition: background-color .25s ease, padding-left .25s ease; }
+.skill-card::before { content: "0" counter(stack); font-family: var(--display); font-weight: 900; color: var(--faint); font-variant-numeric: tabular-nums; }
+.skill-card:hover { background: color-mix(in srgb, var(--accent2) 6%, transparent); padding-left: .9rem; transform: none; box-shadow: none; border-color: var(--line); }
+.skill-card i { font-size: 1.5rem; color: var(--ink); margin: 0; }
+.skill-card span { font-family: var(--display); font-weight: 800; text-transform: uppercase; margin: 0; }
+.skill-card small { color: var(--muted); font-size: .86rem; line-height: 1.55; overflow-wrap: break-word; }
+/* ---- about: dossier ---- */
+.about-grid { display: grid; grid-template-columns: 380px 1fr; gap: clamp(1.8rem,4vw,3.5rem); align-items: start; }
+.profile-shell { position: sticky; top: 5.5rem; }
+.profile-card { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--card); box-shadow: var(--shadow); padding: 0; }
+.profile-visual { min-height: 0; border: 0; border-radius: 0; display: block; background: var(--code-bg); }
+.photo-frame { width: 100%; aspect-ratio: 4/5; border: 0; border-radius: 0; box-shadow: none; background: var(--code-bg); }
+.profile-photo { width: 100%; height: 100%; object-fit: cover; object-position: center top; opacity: 0; transition: opacity .35s ease; filter: grayscale(35%) contrast(1.05); }
+.profile-photo.is-loaded { opacity: 1; }
+.avatar-core { position: absolute; inset: 0; margin: auto; width: 110px; height: 110px; display: grid; place-items: center; border-radius: 24px; font-family: var(--display); font-weight: 900; font-size: 2.2rem; color: #fff; background: linear-gradient(135deg, var(--accent), var(--accent2)); }
+.profile-meta { display: flex; justify-content: space-between; gap: .8rem; padding: .9rem 1.1rem; font-family: var(--mono); font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border-top: 1px solid var(--hair); }
+.about-points { display: block; margin-top: 1.8rem; border-top: 2px solid var(--ink); }
+.about-point { display: grid; grid-template-columns: 28px 180px 1fr; gap: 1rem; align-items: baseline; padding: 1rem .2rem; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; transition: background-color .25s ease; }
+.about-point::before { content: "✓"; color: var(--ok); font-weight: 700; }
+.about-point:hover { background: color-mix(in srgb, var(--ok) 7%, transparent); transform: none; box-shadow: none; border-color: var(--line); }
+.about-point strong { font-family: var(--mono); font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; margin: 0; }
+.about-point span { color: var(--muted); font-size: .9rem; line-height: 1.6; }
+/* ---- contact: big type + console form ---- */
+.contact-mega { font-family: var(--display); font-weight: 900; text-transform: uppercase; font-size: clamp(2.8rem,8vw,6.5rem); line-height: .9; letter-spacing: -.02em; margin: 0 0 1rem; }
+.contact-mega em { font-style: normal; color: transparent; -webkit-text-stroke: 2px var(--ink); }
+.contact-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(1.8rem,4vw,3.5rem); align-items: start; margin-top: 2rem; }
+.contact-list { display: block; margin-top: 1.8rem; border-top: 2px solid var(--ink); }
+.contact-item { display: flex; align-items: center; gap: .9rem; padding: .95rem .2rem; border-bottom: 1px solid var(--line); color: var(--muted); min-width: 0; }
+.contact-item i { width: 38px; height: 38px; flex: 0 0 auto; display: grid; place-items: center; border-radius: 9px; border: 1px solid var(--line); color: var(--ink); background: transparent; }
+.contact-item a, .contact-item span { overflow-wrap: anywhere; font-family: var(--mono); font-size: .85rem; }
+.contact-item a:hover { color: var(--accent); }
+.contact-panel { border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); box-shadow: var(--shadow); overflow: hidden; padding: 0; }
+.contact-panel form { padding: 1.3rem; }
+form { display: grid; gap: 1rem; }
+.form-row { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; }
+.form-honeypot { display: none; }
+label { display: grid; gap: .5rem; font-family: var(--mono); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); min-width: 0; }
+input, textarea { width: 100%; border: 1px solid var(--line); border-radius: 10px; background: transparent; color: var(--ink); padding: .9rem 1rem; font: inherit; font-family: var(--body); font-size: .95rem; letter-spacing: normal; text-transform: none; transition: border-color .2s ease, box-shadow .2s ease; }
+input:focus-visible, textarea:focus-visible { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); }
+textarea { min-height: 160px; resize: vertical; }
+input[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: #e5484d; box-shadow: 0 0 0 3px rgba(229,72,77,.14); }
+.field-error { min-height: 1rem; color: #e5484d; font-size: .76rem; font-family: var(--body); letter-spacing: normal; text-transform: none; }
+.form-note { color: var(--muted); font-size: .8rem; line-height: 1.6; overflow-wrap: break-word; font-family: var(--body); letter-spacing: normal; text-transform: none; }
+.form-status { min-height: 1.2rem; color: var(--accent2); font-size: .85rem; font-family: var(--body); }
+.form-status.is-error { color: #e5484d; }
+.form-status.is-success { color: var(--ok); }
+.submit-button[disabled] { opacity: .6; cursor: wait; }
+/* ---- footer ---- */
+.footer { padding: 3rem 0 2rem; }
+.foot-mark { font-family: var(--display); font-weight: 900; text-transform: uppercase; font-size: clamp(3rem,10vw,8rem); line-height: .9; letter-spacing: -.02em; color: transparent; -webkit-text-stroke: 1.5px var(--faint); margin-bottom: 1.2rem; overflow-wrap: break-word; }
+.foot-row { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font-family: var(--mono); font-size: .76rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 1.2rem; }
+.link-muted:hover { color: var(--accent); }
+.link-inherit:hover { color: var(--accent); }
+/* ---- reveal ---- */
+.reveal { opacity: 1; transform: none; }
+.js .reveal { opacity: 0; transform: translateY(22px); transition: opacity .65s ease, transform .65s ease; }
+.js .reveal.is-visible { opacity: 1; transform: translateY(0); }
+/* ---- admin ---- */
+.admin-view { padding: 4rem 0 5rem; }
+.admin-shell { max-width: 880px; margin: 0 auto; padding: 0 1.25rem; }
+.admin-header { margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem; }
+.admin-kicker { font-family: var(--mono); font-size: .72rem; letter-spacing: .18em; color: var(--accent); }
+.admin-heading h1 { font-family: var(--display); font-weight: 900; text-transform: uppercase; font-size: 2rem; margin: .4rem 0; }
+.admin-heading p { color: var(--muted); margin: 0; max-width: 60ch; }
+.btn-admin-close { padding: .6rem 1.1rem; border-radius: 999px; border: 1px solid var(--accent2); color: var(--accent2); font-weight: 600; font-size: .85rem; cursor: pointer; background: none; transition: background-color .2s ease, color .2s ease; }
+.btn-admin-close:hover { background: color-mix(in srgb, var(--accent2) 12%, transparent); color: var(--ink); }
+.admin-tabs { display: flex; gap: .5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+.admin-tab { padding: .6rem 1.2rem; border-radius: 999px; border: 1px solid var(--line); background: transparent; color: var(--muted); font-weight: 600; font-size: .85rem; cursor: pointer; transition: border-color .2s ease, background-color .2s ease, color .2s ease; }
+.admin-tab:hover { border-color: var(--accent); color: var(--ink); }
+.admin-tab.is-active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.admin-card { border: 1px solid var(--line); border-radius: 12px; padding: 1.4rem 1.5rem; background: var(--card); margin-bottom: 1.3rem; }
+.admin-card h2 { font-size: 1rem; font-family: var(--mono); letter-spacing: .08em; text-transform: uppercase; margin: 0 0 1rem; }
+.admin-card label { display: block; margin-bottom: .8rem; font-family: var(--body); font-size: .9rem; letter-spacing: normal; text-transform: none; color: var(--muted); }
+.admin-card label > span { display: block; margin-bottom: .4rem; font-weight: 600; font-size: .9rem; }
+.admin-input { width: 100%; padding: .65rem .85rem; border-radius: 8px; border: 1px solid var(--line); background: transparent; color: var(--ink); font-size: .95rem; }
+.admin-input:focus-visible { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); }
+.admin-textarea { min-height: 100px; resize: vertical; }
+.admin-max-row { display: flex; align-items: center; gap: .8rem; flex-wrap: wrap; }
+.admin-step { width: 2.3rem; height: 2.3rem; border-radius: 8px; border: 1px solid var(--line); background: transparent; color: var(--ink); font-size: 1.1rem; cursor: pointer; transition: border-color .2s ease; }
+.admin-step:hover { border-color: var(--accent); }
+.admin-max-input { width: 5rem; text-align: center; padding: .5rem; border-radius: 8px; border: 1px solid var(--line); background: transparent; color: var(--ink); font-family: var(--mono); font-size: 1rem; font-variant-numeric: tabular-nums; }
+.admin-picked-list { list-style: none; margin: 0 0 .6rem; padding: 0; display: flex; flex-direction: column; gap: .6rem; }
+.admin-picked-item { display: flex; align-items: center; gap: .8rem; padding: .7rem .9rem; border: 1px solid var(--line); border-radius: 8px; background: transparent; }
+.admin-picked-name { font-weight: 600; flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.admin-grip { cursor: grab; color: var(--muted); }
+.admin-grip:active { cursor: grabbing; }
+.admin-filter { margin-bottom: .9rem; }
+.admin-all-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .55rem; max-height: 460px; overflow-y: auto; overscroll-behavior: contain; }
+.admin-repo { display: flex; align-items: flex-start; gap: .9rem; padding: .7rem .9rem; border: 1px solid var(--line); border-radius: 8px; }
+.admin-repo-info { flex: 1 1 auto; min-width: 0; }
+.admin-repo-name { font-weight: 700; display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.admin-repo-lang { font-family: var(--mono); font-size: .7rem; padding: .12rem .5rem; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+.admin-repo-desc { color: var(--muted); font-size: .85rem; margin: .3rem 0 0; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.admin-repo-meta { font-family: var(--mono); font-size: .72rem; color: var(--muted); margin-top: .35rem; }
+.admin-toggle { position: relative; width: 2.7rem; height: 1.5rem; appearance: none; -webkit-appearance: none; border: 1px solid var(--line); border-radius: 999px; background: transparent; cursor: pointer; transition: background-color .2s ease, border-color .2s ease; flex: 0 0 auto; margin-top: .15rem; }
+.admin-toggle::after { content: ""; position: absolute; top: .15rem; left: .2rem; width: 1rem; height: 1rem; border-radius: 50%; background: var(--muted); transition: transform .2s ease, background-color .2s ease; }
+.admin-toggle:checked { background: color-mix(in srgb, var(--ok) 25%, transparent); border-color: var(--ok); }
+.admin-toggle:checked::after { transform: translateX(1.15rem); background: var(--ok); }
+.admin-actions { display: flex; gap: .9rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.admin-status { color: var(--muted); font-size: .9rem; margin: 0; }
+.admin-status.is-success { color: var(--ok); }
+.admin-status.is-error { color: #e5484d; }
+.admin-empty { color: var(--muted); }
+.admin-tip { color: var(--muted); font-size: .85rem; margin: .4rem 0 0; }
+.admin-edit-btn { padding: .4rem .8rem; border-radius: 8px; border: 1px solid var(--line); background: transparent; color: var(--muted); font-size: .8rem; cursor: pointer; margin-left: auto; transition: border-color .2s ease, color .2s ease; }
+.admin-edit-btn:hover { border-color: var(--accent); color: var(--ink); }
+.admin-edit-modal { position: fixed; inset: 0; background: rgba(0,0,0,.6); display: flex; align-items: center; justify-content: center; z-index: 500; padding: 1rem; overscroll-behavior: contain; }
+.admin-edit-modal[hidden] { display: none; }
+.admin-edit-content { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 1.5rem; max-width: 500px; width: 100%; max-height: 80vh; overflow-y: auto; overscroll-behavior: contain; }
+.admin-edit-content h3 { margin: 0 0 1rem; }
+.admin-edit-actions { display: flex; gap: .8rem; margin-top: 1rem; }
+body.admin-mode main, body.admin-mode .topbar, body.admin-mode .footer { display: none; }
+body.admin-mode #admin-view { display: block; }
+#admin-view { display: none; }
+/* ---- responsive ---- */
+@media (max-width: 1020px) {
+  .nav-links { display: none; }
+  .hero-sub { grid-template-columns: 1fr; }
+  .project-card { grid-template-columns: 48px 1fr; }
+  .project-footer { grid-column: 2; grid-row: auto; flex-direction: row; align-items: center; justify-content: space-between; margin-top: .8rem; }
+  .project-meta { text-align: left; }
+  .lab-grid { grid-template-columns: 1fr; }
+  .lab-tile:nth-child(odd) { border-right: 0; padding-right: .4rem; }
+  .lab-tile:nth-child(even) { padding-left: .4rem; }
+  .resume-card { grid-template-columns: 1fr; }
+  .skill-card { grid-template-columns: 44px 44px 1fr; }
+  .skill-card small { grid-column: 1 / -1; }
+  .about-grid { grid-template-columns: 1fr; }
+  .profile-shell { position: static; }
+  .contact-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  .statband { grid-template-columns: 1fr; }
+  .stat { border-right: 0; border-bottom: 1px solid var(--hair); margin-right: 0; padding-right: 0; }
+  .stat:last-child { border-bottom: 0; }
+  .form-row { grid-template-columns: 1fr; }
+  .about-point { grid-template-columns: 24px 1fr; }
+  .about-point span { grid-column: 2; }
+  .avail { display: none; }
+  .project-card:hover, .lab-tile:hover, .skill-card:hover, .about-point:hover { padding-left: .4rem; }
+  .hero-display .outline { -webkit-text-stroke-width: 1.3px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal, .btn, .pill-link, .theme-toggle, .nav-links a, input, textarea, .project-card, .skill-card, .lab-tile, .about-point, .profile-photo, .resume-viewer-hint {
+    transition: none; animation: none;
+  }
+  .js .reveal { opacity: 1; transform: none; }
+}
+.btn-secondary{background:transparent;color:var(--ink);border-color:var(--line);border-radius:999px;padding:.65rem 1rem;font-size:.8rem;font-family:var(--mono);font-weight:600;}
+.btn-secondary:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--accent2);border-color:var(--ink);}
+</style>
+</head><body id="top">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="topbar">
+<div class="wrap topbar-inner">
+<a class="brand" href="#hero" id="brand-link" aria-label="Aditya Nair — back to top" translate="no">
+<span class="brand-mark" aria-hidden="true">AN</span>
+<span id="brand-name">Aditya Nair<small id="brand-role">CLOUD // DEVOPS // BUILDER</small></span>
+</a>
+<nav aria-label="Primary navigation">
+<ul class="nav-links">
+<li><a href="#projects"><span class="n">01</span>Work</a></li>
+<li><a href="#arsenal"><span class="n">02</span>Arsenal</a></li>
+<li><a href="#resume"><span class="n">03</span>Experience</a></li>
+<li><a href="#skills"><span class="n">04</span>Stack</a></li>
+<li><a href="#about"><span class="n">05</span>About</a></li>
+<li><a href="#contact"><span class="n">06</span>Contact</a></li>
+</ul>
+</nav>
+<div class="topbar-tools">
+<span class="avail"><i aria-hidden="true"></i>Open to work</span>
+<button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+<span class="sun" aria-hidden="true"><i class="fa-solid fa-sun" aria-hidden="true"></i></span>
+<span class="moon" aria-hidden="true"><i class="fa-solid fa-moon" aria-hidden="true"></i></span>
+<span id="theme-toggle-label">Dark</span>
+</button>
+</div>
+</div>
+</header>
+<main id="main-content">
+<!-- HERO -->
+<section class="hero" id="hero" aria-labelledby="hero-title">
+<div class="wrap">
+<div class="hero-meta reveal">
+<span>Portfolio — 2026 edition</span>
+<span>Pune · India</span>
+<span class="pulse">● Available for internships</span>
+</div>
+<div class="hero-copy reveal">
+<h1 class="hero-display" id="hero-title"><span id="hero-name-a">Aditya</span><br /><span class="outline"><span id="hero-name-b">Nair</span><span class="flash">.</span></span></h1>
+<div class="hero-sub">
+<div>
+<p class="role-line" id="hero-role">Cloud · DevOps · IoT — shipping real systems, not slides</p>
+<p class="tagline">Cloud &amp; DevOps Student building practical systems across AWS, automation, and IoT.</p>
+<div class="cta-row">
+<a class="btn btn-primary" href="#projects">View My Work <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
+<a class="btn btn-ghost" id="hero-resume-link" href="#resume">Download Resume</a>
+<a class="btn btn-ghost" href="#contact">Let&rsquo;s Connect</a>
+</div>
+<div class="quick-links">
+<a class="pill-link" data-link="github" href="https://github.com/ADITYANAIR01" target="_blank" rel="noopener noreferrer" aria-label="Open Aditya Nair GitHub profile in a new tab"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+<a class="pill-link" data-link="linkedin" href="https://linkedin.com/in/aditya-nair01" target="_blank" rel="noopener noreferrer" aria-label="Open Aditya Nair LinkedIn profile in a new tab"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+<a class="pill-link" data-link="email" href="mailto:adityanairtech@gmail.com" aria-label="Email Aditya Nair"><i class="fa-solid fa-envelope" aria-hidden="true"></i> <span data-link-label="email">adityanairtech@gmail.com</span></a>
+</div>
+</div>
+<div>
+<p class="section-copy">I like turning cloud concepts into working builds, from scalable AWS setups to connected device dashboards. My focus is hands-on learning: ship the idea, understand the architecture, and improve it until it feels reliable.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="wrap">
+<div class="statband reveal">
+<div class="stat"><span class="stat-label" id="stat-featured-label">Featured repos</span><div class="stat-value" id="featured-repo-count">3</div><div class="stat-note" id="stat-featured-note">GitHub-backed projects</div></div>
+<div class="stat"><span class="stat-label" id="stat-labs-label">AWS lab builds</span><div class="stat-value" id="aws-lab-count">7</div><div class="stat-note" id="stat-labs-note">Hands-on cloud collection</div></div>
+</div>
+</div>
+</section>
+<!-- 01 WORK -->
+<section class="block" id="projects" aria-labelledby="projects-title">
+<div class="wrap">
+<h2 id="projects-title" class="visually-hidden">Selected work</h2>
+<div class="projects-grid reveal" id="projects-grid">
+<article class="project-card">
+<div class="project-top"><span class="project-type">Featured Project</span><span class="project-icon"><i class="fa-solid fa-dumbbell" aria-hidden="true"></i></span></div>
+<h3>IRON75</h3>
+<p>A digital companion for the 75-day challenge with daily tracking, workout logging, weekly wrapped insights, and an AI coach.</p>
+<div class="project-tags"><span>Next.js PWA</span><span>Supabase</span><span>AI Coach</span><span>Local-first</span></div>
+<div class="project-footer"><span class="project-meta">Workout + progress system</span><a class="btn btn-ghost" href="https://github.com/ADITYANAIR01/iron-75" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+</article>
+<article class="project-card">
+<div class="project-top"><span class="project-type">Featured Project</span><span class="project-icon"><i class="fa-brands fa-aws" aria-hidden="true"></i></span></div>
+<h3>AWS Build Collection</h3>
+<p>A growing cloud portfolio: scalable web app with ALB and Auto Scaling, a VPC built from scratch, Mini Dropbox, and focused labs.</p>
+<div class="project-tags"><span>ALB + ASG</span><span>VPC</span><span>Mini Dropbox</span><span>Cloud Labs</span></div>
+<div class="project-footer"><span class="project-meta">Architecture + cloud systems</span><a class="btn btn-ghost" href="https://github.com/ADITYANAIR01/AWS" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+</article>
+<article class="project-card">
+<div class="project-top"><span class="project-type">Featured Project</span><span class="project-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></span></div>
+<h3>Smart Home IoT Dashboard</h3>
+<p>Arduino + ESP32 + Firebase system for live environmental monitoring with auth and alert-driven thinking.</p>
+<div class="project-tags"><span>Arduino</span><span>ESP32</span><span>Firebase</span><span>Realtime Dashboard</span></div>
+<div class="project-footer"><span class="project-meta">IoT + cloud monitoring</span><a class="btn btn-ghost" href="https://github.com/ADITYANAIR01/FIREBASE-IOT" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+</article>
+</div>
+</div>
+</section>
+<!-- 02 ARSENAL -->
+<section class="block" id="arsenal" aria-labelledby="arsenal-title">
+<div class="wrap">
+<div class="sec-head reveal">
+<span class="sec-index">02</span>
+<div><span class="sec-kicker" id="arsenal-kicker">AWS arsenal</span><h2 id="arsenal-title">Projects done on AWS</h2></div>
+<p class="section-copy sec-lede" id="arsenal-lede">Every entry is a hands-on lab that survived contact with the console — networking, compute, storage, and scaling, repeated until boring.</p>
+</div>
+<div class="arsenal-bar reveal">
+<span class="sync-meta" id="arsenal-count-note">8 modules · ALB → S3</span>
+<a class="pill-link" href="https://github.com/ADITYANAIR01/AWS" target="_blank" rel="noopener noreferrer" aria-label="Open AWS project repository in a new tab"><i class="fa-brands fa-github" aria-hidden="true"></i> Open AWS Repo</a>
+</div>
+<div class="lab-grid reveal" id="aws-lab-grid">
+<div class="lab-tile"><strong>AWS Scalable WebApp ALB</strong><span>Production-style multi-AZ setup with ALB, Auto Scaling, EC2, and CloudWatch.</span><div class="lab-chips"><span>ALB</span><span>Auto Scaling</span><span>EC2</span><span>CloudWatch</span></div></div>
+<div class="lab-tile"><strong>AWS VPC From Scratch</strong><span>Custom VPC with public/private isolation, NAT Gateway, and bastion access.</span><div class="lab-chips"><span>VPC</span><span>Subnets</span><span>NAT Gateway</span><span>Bastion</span></div></div>
+<div class="lab-tile"><strong>Mini Dropbox</strong><span>Cloud file storage with S3, RDS, CloudFront, EC2, Nginx, and Flask.</span><div class="lab-chips"><span>S3</span><span>RDS</span><span>CloudFront</span><span>EC2</span></div></div>
+<div class="lab-tile"><strong>Application Load Balancer</strong><span>Layer 7 load balancing, health checks, and backend routing flow.</span><div class="lab-chips"><span>ALB</span><span>Target Groups</span><span>Health Checks</span><span>Routing</span></div></div>
+<div class="lab-tile"><strong>Auto Scaling Group + ELB</strong><span>Self-healing infra lab: scaling policies and traffic distribution.</span><div class="lab-chips"><span>ASG</span><span>ELB</span><span>Scaling Policy</span><span>EC2</span></div></div>
+<div class="lab-tile"><strong>EC2</strong><span>Instance launch flow, SSH, security groups, and lifecycle basics.</span><div class="lab-chips"><span>EC2</span><span>SSH</span><span>Security Groups</span><span>IAM</span></div></div>
+<div class="lab-tile"><strong>S3 Static Website Hosting</strong><span>Static hosting with bucket policy and website endpoints.</span><div class="lab-chips"><span>S3</span><span>Static Hosting</span><span>Bucket Policy</span><span>Public Access</span></div></div>
+<div class="lab-tile"><strong>Practice Collection</strong><span>Repeatable hands-on exercises, not just notes.</span><div class="lab-chips"><span>AWS</span><span>Hands-on Labs</span><span>Service Practice</span></div></div>
+</div>
+</div>
+</section>
+<!-- 03 EXPERIENCE -->
+<section class="block" id="resume" aria-labelledby="resume-title">
+<div class="wrap">
+<div class="sec-head reveal">
+<span class="sec-index">03</span>
+<div><span class="sec-kicker" id="resume-kicker">Track record</span><h2 id="resume-title">Education &amp; certifications</h2></div>
+<p class="section-copy sec-lede" id="resume-lede">Studying the cloud full-time, certifying the fundamentals, and keeping a short list of tools that earn their keep.</p>
+</div>
+<div class="timeline reveal">
+<div class="resume-card">
+<div class="resume-card-header"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><h3>Education</h3></div>
+<div class="resume-entries">
+<div class="resume-entry"><strong>MCA - Cloud Computing</strong><span class="resume-institution">Ajeenkya DY Patil University, Pune</span><span class="resume-dates">2025 - Present</span></div>
+<div class="resume-entry"><strong>BCA - Cloud Computing</strong><span class="resume-institution">SAGE University, Bhopal</span><span class="resume-dates">2022 - 2025</span></div>
+</div>
+</div>
+<div class="resume-card">
+<div class="resume-card-header"><i class="fa-solid fa-award" aria-hidden="true"></i><h3>Certifications</h3></div>
+<div class="resume-entries">
+<div class="resume-entry"><strong>AWS Cloud Practitioner</strong><span class="resume-detail">Foundational cloud knowledge</span></div>
+<div class="resume-entry"><strong>AWS Solutions Architect</strong><span class="resume-detail">Architecture &amp; deployment</span></div>
+</div>
+</div>
+<div class="resume-card">
+<div class="resume-card-header"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i><h3>Focus Areas</h3></div>
+<div>
+<div class="resume-tags"><span class="resume-tag">AWS Cloud</span><span class="resume-tag">Linux</span><span class="resume-tag">Docker</span><span class="resume-tag">DevOps</span><span class="resume-tag">Python</span><span class="resume-tag">IoT</span></div>
+<div class="resume-actions" id="resume-actions">
+<a class="btn btn-primary" id="resume-view-link" href="#" target="_blank" rel="noopener noreferrer" hidden>View Resume</a>
+<a class="btn btn-ghost" id="resume-download-link" href="resume.pdf" download="Aditya-Nair-Resume.pdf" hidden>Download PDF</a>
+<a class="pill-link" id="resume-drive-link" href="#" target="_blank" rel="noopener noreferrer" hidden>Open Google Drive</a>
+</div>
+<p class="resume-viewer-hint"><strong>Tip:</strong> Turn off the three-line sidebar toggle in the PDF viewer to see a larger resume.</p>
+<div class="resume-viewer-wrap">
+<span class="resume-viewer-arrow" aria-hidden="true">→</span>
+<iframe class="resume-preview" id="resume-preview" src="resume.pdf" title="Resume preview" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 04 STACK -->
+<section class="block" id="skills" aria-labelledby="skills-title">
+<div class="wrap">
+<div class="sec-head reveal">
+<span class="sec-index">04</span>
+<div><span class="sec-kicker" id="skills-kicker">Daily drivers</span><h2 id="skills-title">Tools I keep reaching for</h2></div>
+<p class="section-copy sec-lede" id="skills-lede">The short list — what survives every project, across cloud, automation, and system-focused work.</p>
+</div>
+<div class="skills-grid reveal">
+<div class="skill-card"><i class="fa-brands fa-aws" aria-hidden="true"></i><span>AWS</span><small>Architecture labs, networking, compute, storage, scaling, and monitoring.</small></div>
+<div class="skill-card"><i class="fa-brands fa-linux" aria-hidden="true"></i><span>Linux</span><small>Comfortable navigating the terminal and understanding the host environment.</small></div>
+<div class="skill-card"><i class="fa-brands fa-docker" aria-hidden="true"></i><span>Docker</span><small>Interested in repeatable packaging and container-first deployment thinking.</small></div>
+<div class="skill-card"><i class="fa-brands fa-git-alt" aria-hidden="true"></i><span>Git</span><small>Version-controlled workflows for experiments, projects, and iterative learning.</small></div>
+<div class="skill-card"><i class="fa-brands fa-python" aria-hidden="true"></i><span>Python</span><small>Used in backend experiments, automation ideas, and AWS-related project work.</small></div>
+<div class="skill-card"><i class="fa-solid fa-terminal" aria-hidden="true"></i><span>Bash</span><small>Shell commands, setup steps, and practical scripting for dev and ops tasks.</small></div>
+</div>
+</div>
+</section>
+<!-- 05 ABOUT -->
+<section class="block" id="about" aria-labelledby="about-title">
+<div class="wrap">
+<div class="sec-head reveal">
+<span class="sec-index">05</span>
+<div><span class="sec-kicker" id="about-kicker">Dossier</span><h2 id="about-title">Developer first, tech enthusiast always.</h2></div>
+</div>
+<div class="about-grid">
+<div class="profile-shell reveal">
+<div class="profile-card">
+<div class="profile-visual" role="img" aria-label="Portrait of Aditya Nair">
+<div class="photo-frame">
+<img id="profile-photo" class="profile-photo" src="PROFILE.png" loading="lazy" decoding="async" width="480" height="600" alt="Portrait of Aditya Nair" />
+<div class="avatar-core" id="profile-fallback" aria-hidden="true">AN</div>
+</div>
+</div>
+<div class="profile-meta"><span id="profile-location">Pune · India</span></div>
+</div>
+</div>
+<div class="reveal">
+<p class="section-copy">I&rsquo;m Aditya Nair, a Cloud &amp; DevOps student who enjoys exploring how systems behave behind the scenes. I&rsquo;m especially drawn to AWS architecture, deployment patterns, Linux tooling, and projects that make infrastructure feel tangible instead of abstract. Whether it&rsquo;s a scalable web app, a VPC built from scratch, or an IoT dashboard, I like breaking things down, learning the moving parts, and building them back in a cleaner way.</p>
+<div class="about-points">
+<div class="about-point"><strong>Cloud Labs</strong><span>Hands-on AWS practice around ALB, ASG, EC2, S3 hosting, VPC design, and cloud-native workflows.</span></div>
+<div class="about-point"><strong>Automation Mindset</strong><span>I care about repeatable workflows, good structure, and understanding the operational side of software.</span></div>
+<div class="about-point"><strong>Practical Learning</strong><span>I prefer building real things that expose tradeoffs, architecture decisions, and debugging lessons.</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 06 CONTACT -->
+<section class="block" id="contact" aria-labelledby="contact-title">
+<div class="wrap">
+<span class="sec-kicker reveal" id="contact-kicker">06 — Contact</span>
+<h2 class="contact-mega reveal" id="contact-title"><span id="contact-mega-a">Let&rsquo;s build</span><br /><em id="contact-mega-b">something real.</em></h2>
+<div class="contact-grid">
+<div class="reveal">
+<p class="section-copy" id="contact-intro">If you want to talk about cloud engineering, AWS practice, DevOps learning paths, or a project idea, send a message.</p>
+<div class="contact-list">
+<div class="contact-item"><i class="fa-solid fa-user" aria-hidden="true"></i><span>Aditya Nair</span></div>
+<div class="contact-item"><i class="fa-solid fa-envelope" aria-hidden="true"></i><a data-link="email" href="mailto:adityanairtech@gmail.com" class="link-inherit"><span data-link-label="email">adityanairtech@gmail.com</span></a></div>
+<div class="contact-item"><i class="fa-brands fa-github" aria-hidden="true"></i><a data-link="github" href="https://github.com/ADITYANAIR01" target="_blank" rel="noopener noreferrer" class="link-inherit">github.com/ADITYANAIR01</a></div>
+<div class="contact-item"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><a data-link="linkedin" href="https://linkedin.com/in/aditya-nair01" target="_blank" rel="noopener noreferrer" class="link-inherit">linkedin.com/in/aditya-nair01</a></div>
+</div>
+</div>
+<div class="contact-panel reveal">
+<form id="contact-form" action="https://formsubmit.co/adityanairtech@gmail.com" method="POST" novalidate>
+<input type="hidden" name="_subject" value="Portfolio contact form" />
+<input type="hidden" name="_captcha" value="false" />
+<input type="hidden" name="_template" value="table" />
+<div class="form-honeypot" aria-hidden="true">
+<label for="contact-company">Company<input id="contact-company" type="text" name="_honey" tabindex="-1" autocomplete="off" /></label>
+</div>
+<div class="form-row">
+<label for="contact-name">Name
+<input id="contact-name" type="text" name="name" placeholder="Your name…" autocomplete="name" spellcheck="false" aria-describedby="contact-name-error" minlength="2" required />
+<span id="contact-name-error" class="field-error" data-error-for="name" aria-live="polite"></span>
+</label>
+<label for="contact-email">Email
+<input id="contact-email" type="email" name="email" placeholder="you@example.com…" autocomplete="email" inputmode="email" spellcheck="false" aria-describedby="contact-email-error" required />
+<span id="contact-email-error" class="field-error" data-error-for="email" aria-live="polite"></span>
+</label>
+</div>
+<label for="contact-subject">Subject
+<input id="contact-subject" type="text" name="subject" placeholder="What do you want to discuss?…" autocomplete="off" aria-describedby="contact-subject-error" minlength="3" required />
+<span id="contact-subject-error" class="field-error" data-error-for="subject" aria-live="polite"></span>
+</label>
+<label for="contact-message">Message
+<textarea id="contact-message" name="message" placeholder="Tell me what you want to build, improve, or explore…" autocomplete="off" aria-describedby="contact-message-error" minlength="20" required></textarea>
+<span id="contact-message-error" class="field-error" data-error-for="message" aria-live="polite"></span>
+</label>
+<button class="btn btn-primary submit-button" type="submit">Send Message</button>
+<noscript><div class="form-note">JavaScript is off, so the form will submit with a full page reload.</div></noscript>
+<div id="form-status" class="form-status" aria-live="polite" aria-atomic="true" role="status" tabindex="-1"></div>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<div id="admin-view" class="admin-view" hidden>
+<div class="admin-shell">
+<header class="admin-header">
+<div class="admin-heading"><span class="admin-kicker">ADMIN</span><h1>Portfolio Control Center</h1><p>Manage everything that appears on your portfolio.</p></div>
+<button type="button" class="btn-admin-close" id="admin-exit-btn">Exit Admin</button>
+</header>
+<div class="admin-tabs" role="tablist" aria-label="Admin sections">
+<button type="button" class="admin-tab is-active" data-admin-tab="general" role="tab" aria-selected="true">General</button>
+<button type="button" class="admin-tab" data-admin-tab="hero" role="tab" aria-selected="false">Hero</button>
+<button type="button" class="admin-tab" data-admin-tab="projects" role="tab" aria-selected="false">Work</button>
+<button type="button" class="admin-tab" data-admin-tab="arsenal" role="tab" aria-selected="false">Arsenal</button>
+<button type="button" class="admin-tab" data-admin-tab="resume" role="tab" aria-selected="false">Experience</button>
+<button type="button" class="admin-tab" data-admin-tab="skills" role="tab" aria-selected="false">Stack</button>
+<button type="button" class="admin-tab" data-admin-tab="about" role="tab" aria-selected="false">About</button>
+<button type="button" class="admin-tab" data-admin-tab="contact" role="tab" aria-selected="false">Contact</button>
+</div>
+<div id="admin-tab-general" class="admin-tab-content" role="tabpanel">
+<section class="admin-card" aria-labelledby="adm-general-identity">
+<h2 id="adm-general-identity">Identity — used everywhere</h2>
+<label><span>Full name</span><input type="text" id="adm-name" class="admin-input" name="personName" autocomplete="name" /></label>
+<label><span>Role line (brand + hero, UPPERCASE ok)</span><input type="text" id="adm-role" class="admin-input" name="personRole" autocomplete="off" /></label>
+<label><span>Email — updates every mailto, label, and the contact-form endpoint</span><input type="email" id="adm-email" class="admin-input" name="personEmail" autocomplete="email" inputmode="email" spellcheck="false" /></label>
+<div class="form-row">
+<label><span>GitHub URL</span><input type="url" id="adm-github" class="admin-input" name="githubUrl" autocomplete="url" inputmode="url" /></label>
+<label><span>LinkedIn URL</span><input type="url" id="adm-linkedin" class="admin-input" name="linkedinUrl" autocomplete="url" inputmode="url" /></label>
+</div>
+<div class="form-row">
+<label><span>Location</span><input type="text" id="adm-location" class="admin-input" name="location" autocomplete="off" /></label>
+<label><span>Timezone</span><input type="text" id="adm-timezone" class="admin-input" name="timezone" autocomplete="off" /></label>
+</div>
+<label><span>Availability badge (top bar + hero)</span><input type="text" id="adm-availability" class="admin-input" name="availability" autocomplete="off" /></label>
+</section>
+<section class="admin-card" aria-labelledby="adm-general-stats">
+<h2 id="adm-general-stats">Hero stat band labels</h2>
+<div class="form-row">
+<label><span>Stat 1 label</span><input type="text" id="adm-stat-featured-label" class="admin-input" autocomplete="off" /></label>
+<label><span>Stat 1 note</span><input type="text" id="adm-stat-featured-note" class="admin-input" autocomplete="off" /></label>
+</div>
+<div class="form-row">
+<label><span>Stat 2 label</span><input type="text" id="adm-stat-labs-label" class="admin-input" autocomplete="off" /></label>
+<label><span>Stat 2 note</span><input type="text" id="adm-stat-labs-note" class="admin-input" autocomplete="off" /></label>
+</div>
+<p class="admin-tip">Values stay live from GitHub — only labels are editable.</p>
+</section>
+<section class="admin-card" aria-labelledby="adm-general-footer">
+<h2 id="adm-general-footer">Footer</h2>
+<label><span>Footer line — {year} and {name} are replaced automatically</span><input type="text" id="adm-footer-line" class="admin-input" autocomplete="off" /></label>
+</section>
+</div>
+<div id="admin-tab-hero" class="admin-tab-content" hidden role="tabpanel">
+<section class="admin-card"><h2>Hero copy</h2>
+<label><span>Eyebrow pill</span><input type="text" id="adm-hero-eyebrow" class="admin-input" autocomplete="off" /></label>
+<label><span>Role line (mono, under display name)</span><input type="text" id="adm-hero-role" class="admin-input" autocomplete="off" /></label>
+<label><span>Tagline (big statement)</span><input type="text" id="adm-hero-tagline" class="admin-input" autocomplete="off" /></label>
+<label><span>Bio paragraph</span><textarea id="adm-hero-bio" class="admin-input admin-textarea" autocomplete="off"></textarea></label>
+</section>
+</div>
+<div id="admin-tab-projects" class="admin-tab-content" hidden role="tabpanel">
+<section class="admin-card" aria-labelledby="admin-max-h">
+<h2 id="admin-max-h">Featured project count</h2>
+<div class="admin-max-row">
+<button type="button" class="admin-step" data-admin-step="-1" aria-label="Show one fewer project">&minus;</button>
+<label class="visually-hidden" for="admin-max">Maximum featured projects</label>
+<input type="number" id="admin-max" class="admin-max-input" min="0" max="12" value="3" name="maxProjects" />
+<button type="button" class="admin-step" data-admin-step="1" aria-label="Show one more project">+</button>
+<span class="admin-tip">0 = show all eligible repos</span>
+</div>
+</section>
+<section class="admin-card" aria-labelledby="admin-picked-h">
+<h2 id="admin-picked-h">Selected projects (drag to reorder)</h2>
+<p class="admin-empty" id="admin-picked-empty">Nothing selected yet.</p>
+<ol class="admin-picked-list" id="admin-picked-list"></ol>
+</section>
+<section class="admin-card" aria-labelledby="admin-manual-h">
+<h2 id="admin-manual-h">Manual projects (pinned to top)</h2>
+<p class="admin-empty" id="admin-manual-empty">No manual projects yet.</p>
+<ol class="admin-picked-list" id="admin-manual-list"></ol>
+<button type="button" class="btn btn-ghost" id="admin-add-manual" style="margin-top:0.2rem">+ Add Manual Project</button>
+<p class="admin-tip">Manual projects pin to the top of Work. Fields: name, description, skills used, link.</p>
+</section>
+<section class="admin-card" aria-labelledby="admin-all-h">
+<h2 id="admin-all-h">All GitHub repos</h2>
+<div class="admin-filter"><label class="visually-hidden" for="admin-filter">Filter repositories</label><input type="search" id="admin-filter" class="admin-input" name="repoFilter" placeholder="Filter repos…" autocomplete="off" /></div>
+<p class="admin-empty" id="admin-all-empty">Loading repos…</p>
+<ul class="admin-all-list" id="admin-all-list"></ul>
+</section>
+</div>
+<div id="admin-tab-arsenal" class="admin-tab-content" hidden role="tabpanel">
+<section class="admin-card"><h2>Arsenal section copy</h2>
+<label><span>Kicker</span><input type="text" id="adm-arsenal-kicker" class="admin-input" autocomplete="off" /></label>
+<label><span>Title</span><input type="text" id="adm-arsenal-title" class="admin-input" autocomplete="off" /></label>
+<label><span>Lede</span><textarea id="adm-arsenal-lede" class="admin-input admin-textarea" autocomplete="off"></textarea></label>
+<label><span>Note line (next to repo link)</span><input type="text" id="adm-arsenal-note" class="admin-input" autocomplete="off" /></label>
+</section>
+<section class="admin-card" aria-labelledby="adm-labs-h">
+<h2 id="adm-labs-h">Lab overrides</h2>
+<p class="admin-tip">Edit any lab tile. Empty fields fall back to the built-in text. Reset clears your override.</p>
+<p class="admin-empty" id="admin-lab-empty">Labs appear here after the first GitHub sync.</p>
+<div id="admin-lab-list"></div>
+</section>
+</div>
+<div id="admin-tab-resume" class="admin-tab-content" hidden role="tabpanel">
+<section class="admin-card"><h2>Experience section copy</h2>
+<label><span>Kicker</span><input type="text" id="adm-resume-kicker" class="admin-input" autocomplete="off" /></label>
+<label><span>Title</span><input type="text" id="adm-resume-title" class="admin-input" autocomplete="off" /></label>
+<label><span>Lede</span><textarea id="adm-resume-lede" class="admin-input admin-textarea" autocomplete="off"></textarea></label>
+</section>
+<section class="admin-card">
+<h2>Resume delivery</h2>
+<label class="admin-check-row"><input type="checkbox" id="admin-resume-enabled" /> Show resume actions</label>
+<label><span>Local PDF URL</span><input type="url" id="admin-resume-local-url" class="admin-input" name="resumeLocal" placeholder="resume.pdf…" autocomplete="url" inputmode="url" /></label>
+<label><span>Google Drive fallback URL</span><input type="url" id="admin-resume-drive-url" class="admin-input" name="resumeDrive" placeholder="https://drive.google.com/file/d/…" autocomplete="url" inputmode="url" /></label>
+<label class="admin-check-row"><input type="checkbox" id="admin-resume-preview" /> Show native PDF preview</label>
+<p class="admin-tip">The file must live inside portfolio/ (e.g. portfolio/resume.pdf) to deploy through S3/CloudFront.</p>
+<div class="form-row">
+<label><span>Last updated</span><input type="date" id="admin-resume-updated" class="admin-input" name="resumeUpdated" /></label>
+<label><span>Version</span><input type="text" id="admin-resume-version" class="admin-input" name="resumeVersion" placeholder="2026.09…" autocomplete="off" /></label>
+</div>
+</section>
+<section class="admin-card"><h2>Education</h2><div id="admin-education-list"></div><button type="button" class="btn btn-ghost" id="admin-add-education" style="margin-top:0.8rem">+ Add Education</button></section>
+<section class="admin-card"><h2>Certifications</h2><div id="admin-certs-list"></div><button type="button" class="btn btn-ghost" id="admin-add-cert" style="margin-top:0.8rem">+ Add Certification</button></section>
+<section class="admin-card"><h2>Focus areas (tags)</h2><label class="visually-hidden" for="admin-focus-tags">Focus area tags, comma separated</label><input type="text" id="admin-focus-tags" class="admin-input" name="focusTags" placeholder="AWS Cloud, Linux, Docker, DevOps, Python, IoT…" autocomplete="off" /></section>
+</div>
+<div id="admin-tab-skills" class="admin-tab-content" hidden role="tabpanel">
+<section class="admin-card"><h2>Stack section copy</h2>
+<label><span>Kicker</span><input type="text" id="adm-skills-kicker" class="admin-input" autocomplete="off" /></label>
+<label><span>Title</span><input type="text" id="adm-skills-title" class="admin-input" autocomplete="off" /></label>
+<label><span>Lede</span><textarea id="adm-skills-lede" class="admin-input admin-textarea" autocomplete="off"></textarea></label>
+</section>
+<section class="admin-card"><h2>Skills — full control</h2>
+<ol class="admin-picked-list" id="admin-skills-list"></ol>
+<button type="button" class="btn btn-ghost" id="admin-add-skill" style="margin-top:0.2rem">+ Add Skill</button>
+<p class="admin-tip">Toggle to show/hide. Edit changes name, icon (Font Awesome class) and description. Drag to reorder.</p></section>
+</div>
+<div id="admin-tab-about" class="admin-tab-content" hidden role="tabpanel">
+<section class="admin-card"><h2>About copy</h2>
+<label><span>Kicker</span><input type="text" id="adm-about-kicker" class="admin-input" autocomplete="off" /></label>
+<label><span>Heading</span><input type="text" id="adm-about-heading" class="admin-input" autocomplete="off" /></label>
+<label><span>Paragraph</span><textarea id="adm-about-para" class="admin-input admin-textarea" autocomplete="off"></textarea></label>
+</section>
+<section class="admin-card"><h2>About points (3)</h2>
+<label><span>Point 1 — title</span><input type="text" id="adm-point-0-title" class="admin-input" autocomplete="off" /></label>
+<label><span>Point 1 — text</span><textarea id="adm-point-0-text" class="admin-input admin-textarea" autocomplete="off"></textarea></label>
+<label><span>Point 2 — title</span><input type="text" id="adm-point-1-title" class="admin-input" autocomplete="off" /></label>
+<label><span>Point 2 — text</span><textarea id="adm-point-1-text" class="admin-input admin-textarea" autocomplete="off"></textarea></label>
+<label><span>Point 3 — title</span><input type="text" id="adm-point-2-title" class="admin-input" autocomplete="off" /></label>
+<label><span>Point 3 — text</span><textarea id="adm-point-2-text" class="admin-input admin-textarea" autocomplete="off"></textarea></label>
+</section>
+</div>
+<div id="admin-tab-contact" class="admin-tab-content" hidden role="tabpanel">
+<section class="admin-card"><h2>Contact copy</h2>
+<label><span>Kicker</span><input type="text" id="adm-contact-kicker" class="admin-input" autocomplete="off" /></label>
+<label><span>Headline — line 1 (solid)</span><input type="text" id="adm-contact-mega-a" class="admin-input" autocomplete="off" /></label>
+<label><span>Headline — line 2 (outlined)</span><input type="text" id="adm-contact-mega-b" class="admin-input" autocomplete="off" /></label>
+<label><span>Intro paragraph</span><textarea id="adm-contact-intro" class="admin-input admin-textarea" autocomplete="off"></textarea></label>
+<label><span>Form note (under the button)</span><input type="text" id="adm-contact-note" class="admin-input" autocomplete="off" /></label>
+<p class="admin-tip">The delivery address follows the General → Email field. First message via FormSubmit needs one activation email.</p>
+</section>
+</div>
+<div class="admin-actions">
+<button type="button" id="admin-save" class="btn btn-primary">Save &amp; Apply</button>
+<button type="button" id="admin-reset" class="btn btn-ghost">Reset All</button>
+<button type="button" id="admin-export" class="btn btn-ghost">Export Settings</button>
+<button type="button" id="admin-import" class="btn btn-ghost">Import Settings</button>
+<button type="button" id="admin-publish" class="btn btn-ghost">Download Publish File</button>
+</div>
+<p class="admin-status" id="admin-status" aria-live="polite"></p>
+</div>
+</div>
+<div id="admin-edit-modal" class="admin-edit-modal" hidden role="dialog" aria-modal="true" aria-labelledby="admin-edit-title">
+<div class="admin-edit-content">
+<h3 id="admin-edit-title">Edit</h3>
+<div id="admin-edit-fields"></div>
+<div class="admin-edit-actions">
+<button type="button" class="btn btn-primary" id="admin-edit-save">Save</button>
+<button type="button" class="btn btn-ghost" id="admin-edit-cancel">Cancel</button>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="wrap">
+<div class="foot-mark reveal" id="foot-mark">Aditya Nair</div>
+<div class="foot-row">
+<span id="footer-line">&copy; <span id="footer-year">2026</span> Aditya Nair — Cloud &amp; DevOps, live from GitHub.</span>
+<span><a data-link="github" href="https://github.com/ADITYANAIR01" target="_blank" rel="noopener noreferrer" class="link-muted">GitHub</a> · <a data-link="linkedin" href="https://linkedin.com/in/aditya-nair01" target="_blank" rel="noopener noreferrer" class="link-muted">LinkedIn</a> · <a data-link="email" href="mailto:adityanairtech@gmail.com" class="link-muted">Email</a> · <a href="#hero" class="link-muted">Back to top ↑</a></span>
+</div>
+</div>
+</footer>
+    <script>
+      const revealItems = document.querySelectorAll('.reveal');
+      const navLinks = document.querySelectorAll('.nav-links a');
+      const sections = document.querySelectorAll('main section[id]');
+      const form = document.getElementById('contact-form');
+      const formStatus = document.getElementById('form-status');
+      const submitButton = form ? form.querySelector('.submit-button') : null;
+      const projectsGrid = document.getElementById('projects-grid');
+      const awsLabGrid = document.getElementById('aws-lab-grid');
+      const featuredRepoCount = document.getElementById('featured-repo-count');
+      const awsLabCount = document.getElementById('aws-lab-count');
+      const profilePhoto = document.getElementById('profile-photo');
+      const profileFallback = document.getElementById('profile-fallback');
+      const themeToggle = document.getElementById('theme-toggle');
+      const themeToggleLabel = document.getElementById('theme-toggle-label');
+      const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+      const heroResumeLink = document.getElementById('hero-resume-link');
+      const resumeDownloadLink = document.getElementById('resume-download-link');
+      const projectSyncTitle = document.getElementById('project-sync-title');
+      const projectSyncMeta = document.getElementById('project-sync-meta');
+      const systemDarkScheme = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const githubUser = 'ADITYANAIR01';
+      let contactEndpoint = 'https://formsubmit.co/ajax/adityanairtech@gmail.com';
+      const contactSuccessMessage = 'Message sent successfully! I will get back to you within 24 hours.';
+      const contactTimeoutMs = 12000;
+      const ignoredRepos = new Set(['COLLEGE-PDF-S', 'open-resume', 'Storm-Breaker']);
+      const githubTimeoutMs = 9000;
+      const githubRetryCount = 1;
+      const githubSyncTimestampKey = 'portfolio-last-github-sync';
+      const publishedDataUrl = './portfolio-data.json';
+      let hasPublishedSnapshot = false;
+
+      if (heroResumeLink) {
+        heroResumeLink.addEventListener('click', (event) => {
+          event.preventDefault();
+          const resumeSection = document.getElementById('resume');
+          if (resumeSection) {
+            window.history.replaceState(null, '', '#resume');
+            resumeSection.scrollIntoView({ behavior: prefersReducedMotion ? 'auto' : 'smooth', block: 'start' });
+          }
+          window.setTimeout(() => {
+            if (resumeDownloadLink && !resumeDownloadLink.hidden) resumeDownloadLink.click();
+          }, prefersReducedMotion ? 0 : 500);
+        });
+      }
+
+      const projectFallbacks = {
+        'iron-75': {
+          displayName: 'IRON75',
+          type: 'featured build',
+          icon: 'fa-solid fa-dumbbell',
+          description: 'Track daily 75-hard progress with workout logging, habit checks, and weekly recap insights.',
+          services: ['Next.js', 'PWA', 'Supabase', 'AI Coach'],
+          meta: 'Workout + progress system',
+        },
+        AWS: {
+          displayName: 'AWS Build Collection',
+          type: 'cloud lab',
+          icon: 'fa-brands fa-aws',
+          description: 'Hands-on AWS portfolio with scalable web app, custom VPC, and service-by-service lab builds.',
+          services: ['AWS', 'ALB/ASG', 'VPC', 'EC2'],
+          meta: 'Architecture + cloud systems learning',
+        },
+        'FIREBASE-IOT': {
+          displayName: 'Smart Home IoT Sensor Dashboard',
+          type: 'iot stack',
+          icon: 'fa-solid fa-microchip',
+          description: 'Streams live sensor readings from ESP devices into a Firebase-backed monitoring dashboard.',
+          services: ['Arduino', 'ESP32', 'Firebase', 'Realtime DB'],
+          meta: 'IoT + cloud-connected monitoring',
+        },
+      };
+
+      const topicServiceMap = {
+        aws: 'AWS',
+        ec2: 'EC2',
+        s3: 'S3',
+        rds: 'RDS',
+        cloudfront: 'CloudFront',
+        vpc: 'VPC',
+        docker: 'Docker',
+        firebase: 'Firebase',
+        iot: 'IoT',
+        arduino: 'Arduino',
+        esp32: 'ESP32',
+        esp8266: 'ESP8266',
+        supabase: 'Supabase',
+        nextjs: 'Next.js',
+        'next-js': 'Next.js',
+        react: 'React',
+        python: 'Python',
+        typescript: 'TypeScript',
+        javascript: 'JavaScript',
+        flask: 'Flask',
+        nginx: 'Nginx',
+      };
+
+      const awsDescriptions = {
+        'aws-scalable-webapp-alb':
+          'Production-style multi-AZ setup with Application Load Balancer, Auto Scaling, EC2, and CloudWatch.',
+        'aws-vpc-from-scratch':
+          'Custom VPC with public and private subnet isolation, NAT Gateway, and bastion-based access.',
+        'mini-dropbox':
+          'Cloud file storage platform using AWS S3, RDS, CloudFront, EC2, Nginx, and Python Flask.',
+        'APPLICATION-LOAD-BALANCER':
+          'Dedicated lab for Layer 7 load balancing, health checks, and backend routing flow.',
+        'AUTO-SCALING-GROUP-ELB':
+          'Self-healing infrastructure lab focused on scaling policy behavior and traffic distribution.',
+        EC2:
+          'Core instance setup practice covering launch flow, SSH, security groups, and lifecycle basics.',
+        'S3-STATIC-WEBSITE-HOSTING':
+          'Static site deployment practice using S3 bucket hosting and public website endpoint configuration.',
+      };
+
+      const awsLabServices = {
+        'aws-scalable-webapp-alb': ['ALB', 'Auto Scaling', 'EC2', 'CloudWatch'],
+        'aws-vpc-from-scratch': ['VPC', 'Subnets', 'NAT Gateway', 'Bastion'],
+        'mini-dropbox': ['S3', 'RDS', 'CloudFront', 'EC2'],
+        'application-load-balancer': ['ALB', 'Target Groups', 'Health Checks', 'Routing'],
+        'auto-scaling-group-elb': ['ASG', 'ELB', 'Scaling Policy', 'EC2'],
+        ec2: ['EC2', 'SSH', 'Security Groups', 'IAM'],
+        's3-static-website-hosting': ['S3', 'Static Hosting', 'Bucket Policy', 'Public Access'],
+        'practice-collection': ['AWS', 'Hands-on Labs', 'Service Practice'],
+        practice: ['AWS', 'Hands-on Labs', 'Service Practice'],
+      };
+
+      const titleCase = (value) =>
+        value
+          .replace(/[-_]/g, ' ')
+          .replace(/\b\w/g, (match) => match.toUpperCase());
+
+      const dateFmt = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      const timeFmt = new Intl.DateTimeFormat([], { hour: '2-digit', minute: '2-digit' });
+      const formatDate = (value) => {
+        try { return dateFmt.format(new Date(value)); } catch (_e) { return ''; }
+      };
+
+      const compactText = (value, maxLength) => {
+        const normalized = toEnglishOnly(
+          String(value || '')
+            .normalize('NFC')
+            .replace(/<[^>]*>/g, ' ')
+            .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, '')
+            .replace(/\s+/g, ' ')
+            .trim()
+        );
+        if (!normalized) return '';
+        const chars = Array.from(normalized);
+        if (chars.length <= maxLength) return normalized;
+        // Unicode-safe truncation: never split surrogate pairs / emoji.
+        const truncated = chars.slice(0, maxLength).join('').replace(/\s+\S*$/, '').trimEnd();
+        return (truncated || chars.slice(0, maxLength).join('').trimEnd()) + '…';
+      };
+
+      const unique = (items) => {
+        const seen = new Set();
+        return items.filter((item) => {
+          const key = item.toLowerCase();
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+      };
+
+      const getTopicServices = (repo) =>
+        (Array.isArray(repo.topics) ? repo.topics : [])
+          .map((topic) => topicServiceMap[String(topic).toLowerCase()])
+          .filter(Boolean);
+
+      const normalizeServiceKey = (value) =>
+        String(value || '')
+          .trim()
+          .toLowerCase()
+          .replace(/[_\s+]+/g, '-')
+          .replace(/[^a-z0-9-]/g, '');
+
+      const getAwsLabServices = (labName) => {
+        const normalized = normalizeServiceKey(labName);
+        const services = awsLabServices[normalized];
+        if (services && services.length) return services.slice(0, 4);
+        return ['AWS', 'Cloud Services'];
+      };
+
+      const decodeBase64Utf8 = (base64) => {
+        const binary = atob(base64);
+        const bytes = new Uint8Array(binary.length);
+        for (let i = 0; i < binary.length; i += 1) {
+          bytes[i] = binary.charCodeAt(i);
+        }
+        try {
+          return new TextDecoder('utf-8', { fatal: false }).decode(bytes);
+        } catch (_decodeError) {
+          // Fallback for very old browsers without TextDecoder.
+          try {
+            return decodeURIComponent(
+              binary
+                .split('')
+                .map((ch) => '%' + ch.charCodeAt(0).toString(16).padStart(2, '0'))
+                .join('')
+            );
+          } catch (_fallbackError) {
+            return binary;
+          }
+        }
+      };
+
+      const fetchReadme = async (repoName) => {
+        try {
+          const controller = new AbortController();
+          const timeoutId = window.setTimeout(() => controller.abort(), githubTimeoutMs);
+          const response = await fetch(
+            'https://api.github.com/repos/' + githubUser + '/' + repoName + '/readme',
+            {
+              headers: { Accept: 'application/vnd.github+json' },
+              signal: controller.signal,
+            }
+          );
+          window.clearTimeout(timeoutId);
+          if (!response.ok) return null;
+          const data = await response.json();
+          if (data.content && data.encoding === 'base64') {
+            // GitHub returns README as base64-encoded UTF-8 bytes.
+            // atob() alone returns Latin-1 chars (mojibake for emoji/Hindi),
+            // so decode the bytes explicitly as UTF-8.
+            return decodeBase64Utf8(String(data.content).replace(/\s/g, ''));
+          }
+          return null;
+        } catch (_error) {
+          return null;
+        }
+      };
+
+      // English words only: strip emoji, Devanagari/Hindi, and all non-ASCII symbols.
+      const toEnglishOnly = (value) =>
+        String(value || '')
+          // Remove all emoji (miscellaneous symbols, emoticons, dingbats, etc.)
+          .replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, '')
+          // Remove keycap sequences (digit + combining enclosing keycap)
+          .replace(/[\u20E3]/gu, '')
+          // Remove Devanagari/Hindi
+          .replace(/[\u0900-\u097F\uA8E0-\uA8FF\u1CD0-\u1CFF]+/g, '')
+          // Remove leftover empty parentheses from stripped Hindi
+          .replace(/\(\s*\)/g, ' ')
+          // Collapse whitespace and fix orphaned punctuation
+          .replace(/\s{2,}/g, ' ')
+          .replace(/\s+([.,;:!?])/g, '$1')
+          .trim();
+
+      const cleanMarkdownText = (value) =>
+        toEnglishOnly(
+          String(value || '')
+            .normalize('NFC')
+            .replace(/<[^>]*>/g, ' ')
+            .replace(/!\[([^\]]*)\]\([^)]+\)/g, '$1')
+            .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+            .replace(/`([^`]+)`/g, '$1')
+            .replace(/[*_]{1,2}([^*_]+)[*_]{1,2}/g, '$1')
+            .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, '')
+            .replace(/\s+/g, ' ')
+            .trim()
+        );
+
+      const cleanServiceToken = (value) => {
+        let token = cleanMarkdownText(value);
+        // Drop URLs, paths, and sentences — service chips must stay short.
+        if (!token || token.includes('://') || token.includes('www.')) return '';
+        // Take only the part before sentence punctuation when a full sentence leaked in.
+        if (token.length > 32 && /[.?!]/.test(token)) {
+          token = token.split(/[.?!]/)[0].trim();
+        }
+        token = token.replace(/^[^A-Za-z0-9+#.]+/, '').replace(/[^A-Za-z0-9+#.\- ]+$/g, '').trim();
+        token = token.replace(/\s+/g, ' ');
+        if (!token || token.length < 2 || token.length > 28) return '';
+        if (token.includes('�')) return '';
+        if (!/[A-Za-z0-9]/.test(token)) return '';
+        return token;
+      };
+
+      const parseReadme = (readmeContent) => {
+        if (!readmeContent) return { description: '', services: [], tools: [] };
+
+        const normalizedContent = String(readmeContent).normalize('NFC');
+        const lines = normalizedContent.split('\n').filter((line) => line.trim());
+
+        let description = '';
+        let services = [];
+        let tools = [];
+        let currentSection = '';
+        let inCodeBlock = false;
+
+        const techKeywords = [
+          'tech stack', 'technologies', 'services used', 'built with', 'tools used',
+          'prerequisites', 'requirements', 'stack', 'features', 'overview',
+        ];
+
+        const servicePatterns = [
+          /(?:aws|ec2|s3|rds|lambda|cloudfront|vpc|iam|dynamodb|sqs|sns|api gateway)/i,
+          /(?:docker|kubernetes|k8s|terraform|ansible|jenkins|github actions|ci\/cd)/i,
+          /(?:python|javascript|typescript|node\.?js|react|next\.?js|vue|angular|flask|django)/i,
+          /(?:firebase|supabase|mongodb|postgres|mysql|redis|nginx)/i,
+          /(?:arduino|esp32|esp8266|iot|mqtt)/i,
+          /(?:linux|bash|git|github)/i,
+        ];
+
+        for (const line of lines) {
+          const trimmed = line.trim();
+
+          if (trimmed.startsWith('```')) {
+            inCodeBlock = !inCodeBlock;
+            continue;
+          }
+          if (inCodeBlock) continue;
+
+          if (trimmed.startsWith('#')) {
+            const heading = trimmed.replace(/^#+\s*/, '').toLowerCase();
+            if (techKeywords.some((kw) => heading.includes(kw))) {
+              currentSection = 'tech';
+            } else if (heading.includes('about') || heading.includes('description') || heading.includes('intro')) {
+              currentSection = 'description';
+            } else if (heading.includes('feature')) {
+              currentSection = 'features';
+            } else {
+              currentSection = '';
+            }
+            continue;
+          }
+
+          if (trimmed.startsWith('![') || trimmed.startsWith('[![') || trimmed.startsWith('---') || trimmed.startsWith('===')) {
+            continue;
+          }
+
+          if (!description && currentSection !== 'tech' && !trimmed.startsWith('[') && !trimmed.startsWith('|') && !trimmed.startsWith('-') && !trimmed.startsWith('*')) {
+            description = cleanMarkdownText(trimmed);
+          }
+
+          if (currentSection === 'tech' || currentSection === '') {
+            const techLine = cleanMarkdownText(trimmed.replace(/^[-*]\s*/, ''));
+
+            for (const pattern of servicePatterns) {
+              if (pattern.test(techLine)) {
+                const matches = techLine.match(pattern);
+                if (matches) {
+                  const service = cleanServiceToken(matches[0]);
+                  if (service && !tools.includes(service)) tools.push(service);
+                }
+              }
+            }
+
+          }
+        }
+
+        if (!description) {
+          for (const line of lines) {
+            const trimmed = line.trim();
+            if (!trimmed.startsWith('#') && !trimmed.startsWith('![') && !trimmed.startsWith('[![') && !trimmed.startsWith('---') && !trimmed.startsWith('|') && !trimmed.startsWith('-') && !trimmed.startsWith('*') && trimmed.length > 20) {
+              description = cleanMarkdownText(trimmed);
+              break;
+            }
+          }
+        }
+
+        return {
+          description: cleanMarkdownText(description),
+          services: unique(tools).slice(0, 6),
+          tools: unique(tools).slice(0, 6),
+        };
+      };
+
+      const getActiveTheme = () =>
+        document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+
+      const getStoredThemePreference = () => {
+        try {
+          return localStorage.getItem('portfolio-theme');
+        } catch (_error) {
+          return null;
+        }
+      };
+
+      const setStoredThemePreference = (theme) => {
+        try {
+          localStorage.setItem('portfolio-theme', theme);
+        } catch (_error) {
+          // Ignore storage errors and continue with in-memory theme state.
+        }
+      };
+
+      const applyTheme = (theme, options = {}) => {
+        const shouldPersist = options.persist !== false;
+        const normalizedTheme = theme === 'dark' ? 'dark' : 'light';
+
+        document.documentElement.setAttribute('data-theme', normalizedTheme);
+        if (shouldPersist) setStoredThemePreference(normalizedTheme);
+
+        if (themeColorMeta) {
+          themeColorMeta.setAttribute('content', normalizedTheme === 'dark' ? '#08121f' : '#f7f4ee');
+        }
+
+        if (themeToggle) {
+          const nextTheme = normalizedTheme === 'dark' ? 'light' : 'dark';
+          themeToggle.setAttribute('aria-pressed', String(normalizedTheme === 'dark'));
+          themeToggle.setAttribute('aria-label', 'Switch to ' + nextTheme + ' theme');
+        }
+
+        if (themeToggleLabel) {
+          themeToggleLabel.textContent = normalizedTheme === 'dark' ? 'Light' : 'Dark';
+        }
+      };
+
+      const setProjectSyncStatus = (title, meta = '') => {
+        if (projectSyncTitle) projectSyncTitle.textContent = title;
+        if (projectSyncMeta) projectSyncMeta.textContent = meta;
+      };
+
+      const setFormStatus = (message, type) => {
+        if (!formStatus) return;
+        formStatus.textContent = message;
+        formStatus.classList.remove('is-error', 'is-success');
+        if (type === 'error') formStatus.classList.add('is-error');
+        if (type === 'success') formStatus.classList.add('is-success');
+        if (message) formStatus.focus({ preventScroll: true });
+      };
+
+      const setFieldError = (fieldName, message) => {
+        if (!form) return;
+        const field = form.elements.namedItem(fieldName);
+        const errorField = form.querySelector('[data-error-for="' + fieldName + '"]');
+        if (field instanceof HTMLElement) {
+          field.setAttribute('aria-invalid', message ? 'true' : 'false');
+        }
+        if (errorField) errorField.textContent = message;
+      };
+
+      const clearFormErrors = () => {
+        if (!form) return;
+        ['name', 'email', 'subject', 'message'].forEach((fieldName) => setFieldError(fieldName, ''));
+      };
+
+      const validateContactForm = () => {
+        if (!form) return { isValid: false, firstInvalidField: null };
+
+        clearFormErrors();
+        const name = form.elements.namedItem('name');
+        const email = form.elements.namedItem('email');
+        const subject = form.elements.namedItem('subject');
+        const message = form.elements.namedItem('message');
+        const validations = [];
+        const minLengths = {
+          name: 2,
+          subject: 3,
+          message: 20,
+        };
+
+        if (name instanceof HTMLInputElement) {
+          const value = name.value.trim();
+          if (!name.checkValidity()) {
+            validations.push({ fieldName: 'name', message: name.validationMessage || 'Enter your name.' });
+          } else if (value.length < minLengths.name) {
+            validations.push({ fieldName: 'name', message: 'Enter at least 2 characters.' });
+          }
+        }
+
+        if (email instanceof HTMLInputElement) {
+          if (!email.checkValidity()) {
+            validations.push({ fieldName: 'email', message: email.validationMessage || 'Enter a valid email address.' });
+          }
+        }
+
+        if (subject instanceof HTMLInputElement) {
+          const value = subject.value.trim();
+          if (!subject.checkValidity()) {
+            validations.push({ fieldName: 'subject', message: subject.validationMessage || 'Add a short subject.' });
+          } else if (value.length < minLengths.subject) {
+            validations.push({ fieldName: 'subject', message: 'Add a short subject.' });
+          }
+        }
+
+        if (message instanceof HTMLTextAreaElement) {
+          const value = message.value.trim();
+          if (!message.checkValidity()) {
+            validations.push({ fieldName: 'message', message: message.validationMessage || 'Add your message.' });
+          } else if (value.length < minLengths.message) {
+            validations.push({ fieldName: 'message', message: 'Message should be at least 20 characters.' });
+          }
+        }
+
+        validations.forEach(({ fieldName, message }) => setFieldError(fieldName, message));
+        return {
+          isValid: validations.length === 0,
+          firstInvalidField: validations.length ? validations[0].fieldName : null,
+        };
+      };
+
+      const setSubmitState = (isSubmitting) => {
+        if (!submitButton) return;
+        submitButton.disabled = isSubmitting;
+        submitButton.textContent = isSubmitting ? 'Sending…' : 'Send Message';
+      };
+
+      const submitContactForm = async (payload) => {
+        const controller = new AbortController();
+        const timeoutId = window.setTimeout(() => controller.abort(), contactTimeoutMs);
+
+        try {
+          const response = await fetch(contactEndpoint, {
+            method: 'POST',
+            headers: {
+              Accept: 'application/json',
+            },
+            body: payload,
+            signal: controller.signal,
+          });
+
+          const result = await response.json().catch(() => ({}));
+          if (!response.ok || result.success === false) {
+            throw new Error(result.message || 'Message delivery failed.');
+          }
+
+          return result;
+        } finally {
+          window.clearTimeout(timeoutId);
+        }
+      };
+
+      const getProjectName = (repo) => {
+        if (repo.manual) return repo.manualName || 'Untitled project';
+        if (repo.customName) return repo.customName;
+        const fallback = projectFallbacks[repo.name];
+        return fallback && fallback.displayName ? fallback.displayName : titleCase(repo.name);
+      };
+
+      const getProjectIcon = (repo) => {
+        if (repo.manual) return repo.manualIcon || 'fa-solid fa-cube';
+        const fallback = projectFallbacks[repo.name];
+        if (fallback) return fallback.icon;
+        const name = repo.name.toLowerCase();
+        if (name.includes('aws')) return 'fa-brands fa-aws';
+        if (name.includes('iot') || name.includes('arduino') || name.includes('nodemcu')) {
+          return 'fa-solid fa-microchip';
+        }
+        if (name.includes('resume') || name.includes('pdf')) return 'fa-solid fa-file-lines';
+        if (repo.language === 'Python') return 'fa-brands fa-python';
+        if (repo.language === 'TypeScript' || repo.language === 'JavaScript') {
+          return 'fa-solid fa-code';
+        }
+        return 'fa-solid fa-cubes';
+      };
+
+      const getProjectType = (repo) => {
+        if (repo.manual) return 'curated';
+        const fallback = projectFallbacks[repo.name];
+        if (fallback) return fallback.type;
+        if (repo.language === 'Python') return 'python build';
+        if (repo.language === 'HTML') return 'frontend build';
+        if (repo.language === 'TypeScript') return 'app build';
+        return 'github repo';
+      };
+
+      const getProjectDescription = (repo) => {
+        if (repo.manual) return compactText(repo.manualDesc || repo.description || '', 115) || 'Curated project entry.';
+        const fallback = projectFallbacks[repo.name];
+        if (fallback && fallback.description) return compactText(fallback.description, 115);
+
+        if (repo.readmeData && repo.readmeData.description) {
+          return compactText(repo.readmeData.description, 115);
+        }
+
+        if (repo.description) return compactText(repo.description, 115);
+
+        const services = getTopicServices(repo);
+        if (services.length) {
+          return compactText('Project focused on ' + services.slice(0, 3).join(', ') + '.', 115);
+        }
+
+        if (repo.language) return compactText(repo.language + ' repository from Aditya Nair\'s GitHub profile.', 115);
+        return 'Repository from Aditya Nair\'s GitHub profile.';
+      };
+
+      const getProjectServices = (repo) => {
+        if (repo.manual) return unique(repo.manualServices || []).slice(0, 4);
+        const fallback = projectFallbacks[repo.name];
+        if (fallback && Array.isArray(fallback.services) && fallback.services.length) {
+          return fallback.services.slice(0, 4);
+        }
+
+        if (repo.readmeData && repo.readmeData.services && repo.readmeData.services.length) {
+          return repo.readmeData.services.slice(0, 4);
+        }
+
+        const services = [];
+        const topicServices = getTopicServices(repo);
+        if (topicServices.length) services.push(...topicServices);
+        if (repo.language) services.push(repo.language);
+        if (!services.length) services.push('GitHub');
+
+        return unique(services).slice(0, 4);
+      };
+
+      const getProjectTags = (repo) => {
+        return getProjectServices(repo);
+      };
+
+      const getProjectMeta = (repo) => {
+        if (repo.manual) return 'Curated entry';
+        const fallback = projectFallbacks[repo.name];
+        if (fallback) return fallback.meta;
+        return repo.language ? repo.language + ' · GitHub' : 'GitHub repository';
+      };
+
+      const getProjectUrl = (repo) => {
+        if (repo.manual) return repo.manualUrl || '#';
+        if (repo.customUrl) return repo.customUrl;
+        return repo.html_url;
+      };
+
+      const toManualRepo = (m) => ({
+        manual: true,
+        name: 'manual:' + m.id,
+        manualName: m.name || 'Untitled project',
+        manualIcon: m.icon || 'fa-solid fa-cube',
+        manualServices: Array.isArray(m.services) ? m.services : [],
+        manualDesc: m.description || '',
+        manualUrl: m.url || '#',
+        html_url: m.url || '#',
+        description: m.description || '',
+      });
+
+      const buildDisplayRepos = (syncedFinal) => {
+        const settings = loadAdminSettings();
+        const manual = Array.isArray(settings.projects.manual) ? settings.projects.manual.map(toManualRepo) : [];
+        const max = settings.projects.maxProjects;
+        const synced = max > 0 ? syncedFinal.slice(0, Math.max(0, max - manual.length)) : syncedFinal;
+        return [...manual, ...synced];
+      };
+
+      const renderProjects = (repos) => {
+        if (!projectsGrid) return;
+
+        if (!repos.length) {
+          if (featuredRepoCount) featuredRepoCount.textContent = '0';
+          return;
+        }
+
+        const cards = repos.map((repo) => {
+          const article = document.createElement('article');
+          article.className = 'project-card reveal is-visible';
+
+          const top = document.createElement('div');
+          top.className = 'project-top';
+
+          const type = document.createElement('span');
+          type.className = 'project-type';
+          type.textContent = getProjectType(repo);
+
+          const iconWrap = document.createElement('span');
+          iconWrap.className = 'project-icon';
+
+          const icon = document.createElement('i');
+          icon.className = getProjectIcon(repo);
+          icon.setAttribute('aria-hidden', 'true');
+
+          iconWrap.appendChild(icon);
+          top.append(type, iconWrap);
+
+          const title = document.createElement('h3');
+          title.textContent = getProjectName(repo);
+
+          const description = document.createElement('p');
+          description.textContent = getProjectDescription(repo);
+
+          const tags = document.createElement('div');
+          tags.className = 'project-tags';
+          getProjectTags(repo).forEach((tag) => {
+            const tagEl = document.createElement('span');
+            tagEl.textContent = tag;
+            tags.appendChild(tagEl);
+          });
+
+          const footer = document.createElement('div');
+          footer.className = 'project-footer';
+
+          const meta = document.createElement('span');
+          meta.className = 'project-meta';
+          meta.textContent = getProjectMeta(repo);
+
+          const link = document.createElement('a');
+          link.className = 'btn btn-secondary';
+          link.href = getProjectUrl(repo);
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          link.textContent = repo.manual ? 'Open Link' : 'View on GitHub';
+
+          footer.append(meta, link);
+          article.append(top, title, description, tags, footer);
+          return article;
+        });
+
+        projectsGrid.replaceChildren(...cards);
+      };
+
+      const renderAwsLabs = (rootDirs, practiceDirs, labReadmeMap = {}) => {
+        if (!awsLabGrid) return;
+        const labs = [...rootDirs, ...practiceDirs];
+        if (!labs.length) {
+          if (awsLabCount) awsLabCount.textContent = '8';
+          return;
+        }
+
+        const tiles = labs.map((entry) => {
+          const key = entry.name;
+          const readmeData = labReadmeMap[key];
+          const override = labOverride(key);
+          trackLab(key);
+          const label = (override && override.title) || titleCase(entry.name);
+
+          let description;
+          let services;
+
+          if (override && override.desc) {
+            description = compactText(override.desc, 115);
+          } else if (readmeData && readmeData.description) {
+            description = compactText(readmeData.description, 115);
+          } else {
+            description =
+              awsDescriptions[key] ||
+              'AWS practice module focused on hands-on service understanding and build repetition.';
+          }
+
+          if (override && override.services && override.services.length) {
+            services = override.services.slice(0, 4);
+          } else if (readmeData && readmeData.services && readmeData.services.length) {
+            services = readmeData.services.slice(0, 4);
+          } else {
+            services = getAwsLabServices(entry.name);
+          }
+
+          const tile = document.createElement('div');
+          tile.className = 'lab-tile reveal is-visible';
+
+          const title = document.createElement('strong');
+          title.textContent = label;
+
+          const descriptionNode = document.createElement('span');
+          descriptionNode.textContent = description;
+
+          const chips = document.createElement('div');
+          chips.className = 'lab-chips';
+          services.forEach((service) => {
+            const chip = document.createElement('span');
+            chip.textContent = service;
+            chips.appendChild(chip);
+          });
+
+          tile.append(title, descriptionNode, chips);
+          return tile;
+        });
+
+        awsLabGrid.replaceChildren(...tiles);
+
+        if (awsLabCount) awsLabCount.textContent = String(labs.length);
+      };
+
+      const loadPublishedSnapshot = async () => {
+        try {
+          const response = await fetch(publishedDataUrl, { cache: 'no-cache' });
+          if (!response.ok) throw new Error('Published portfolio data returned ' + response.status);
+          const data = await response.json();
+          if (!Array.isArray(data.repos) || !Array.isArray(data.awsRootDirs) || !Array.isArray(data.awsPracticeDirs)) {
+            throw new Error('Published portfolio data has an invalid shape');
+          }
+
+          if (data.content && typeof data.content === 'object' && Object.keys(data.content).length) {
+            publishedLayer = data.content;
+            if (!localStorage.getItem(adminStorageKey)) {
+              loadedAdminSettings = normalizeSettings(deepMerge(cloneDefaults(), data.content));
+              applyAdminSettings();
+            }
+          }
+
+          hasPublishedSnapshot = true;
+          const publishedReposWithReadmes = data.repos.map((repo) => ({
+            ...repo,
+            readmeData: repo.readmeContent ? parseReadme(decodeBase64Utf8(repo.readmeContent)) : null,
+          }));
+          adminAllRepos = publishedReposWithReadmes;
+          const publishedRepos = buildDisplayRepos(applyCustomProjectData(applySelectionOrder(publishedReposWithReadmes)));
+          renderProjects(publishedRepos);
+          renderAwsLabs(data.awsRootDirs, data.awsPracticeDirs);
+          if (featuredRepoCount) featuredRepoCount.textContent = String(publishedRepos.length);
+          setProjectSyncStatus(
+            'Published portfolio snapshot',
+            'Projects: ' + publishedRepos.length + ' | AWS labs: ' + (data.awsRootDirs.length + data.awsPracticeDirs.length) + ' | Refreshing GitHub in background'
+          );
+        } catch (_error) {
+          hasPublishedSnapshot = false;
+        }
+      };
+
+      const activateProfilePhoto = () => {
+        if (!profilePhoto || !profileFallback) return;
+        profilePhoto.classList.add('is-loaded');
+        profileFallback.style.display = 'none';
+      };
+
+      const loadProfilePhoto = (avatarUrl) => {
+        if (!profilePhoto || !avatarUrl || profilePhoto.getAttribute('src')) return;
+        profilePhoto.src = avatarUrl;
+      };
+
+      if (profilePhoto) {
+        if (profilePhoto.complete && profilePhoto.getAttribute('src')) {
+          activateProfilePhoto();
+        } else {
+          profilePhoto.addEventListener('load', activateProfilePhoto, { once: true });
+        }
+
+        profilePhoto.addEventListener(
+          'error',
+          () => {
+            if (profileFallback) profileFallback.style.display = 'grid';
+          },
+          { once: true }
+        );
+      }
+
+      const fetchJson = async (url, retries, timeoutMs) => {
+        let lastError = null;
+
+        for (let attempt = 0; attempt <= retries; attempt += 1) {
+          const controller = new AbortController();
+          const timeoutId = window.setTimeout(() => controller.abort(), timeoutMs);
+
+          try {
+            const response = await fetch(url, {
+              headers: {
+                Accept: 'application/vnd.github+json',
+              },
+              signal: controller.signal,
+            });
+
+            if (!response.ok) {
+              const error = new Error('GitHub request failed: ' + response.status);
+              error.status = response.status;
+              error.rateLimited = response.status === 403;
+              throw error;
+            }
+
+            return await response.json();
+          } catch (error) {
+            lastError = error;
+            if (attempt >= retries) break;
+          } finally {
+            window.clearTimeout(timeoutId);
+          }
+        }
+
+        throw lastError;
+      };
+
+      const getLastSyncStamp = () => {
+        const stamp = sessionStorage.getItem(githubSyncTimestampKey);
+        if (!stamp) return '';
+        try { return timeFmt.format(new Date(Number(stamp))); } catch (_e) { return ''; }
+      };
+
+      const initGitHubSync = async () => {
+        setProjectSyncStatus('Syncing latest repositories from GitHub…');
+
+        const requests = [
+          fetchJson('https://api.github.com/users/' + githubUser, githubRetryCount, githubTimeoutMs),
+          fetchJson('https://api.github.com/users/' + githubUser + '/repos?per_page=100&sort=updated', githubRetryCount, githubTimeoutMs),
+          fetchJson('https://api.github.com/repos/' + githubUser + '/AWS/contents', githubRetryCount, githubTimeoutMs),
+          fetchJson('https://api.github.com/repos/' + githubUser + '/AWS/contents/PRACTICE', githubRetryCount, githubTimeoutMs),
+        ];
+
+        const [userResult, reposResult, awsRootResult, awsPracticeResult] = await Promise.allSettled(requests);
+
+        if (userResult.status === 'fulfilled') loadProfilePhoto(userResult.value.avatar_url);
+
+        let syncedProjects = 0;
+        let syncedLabs = 0;
+
+        if (reposResult.status === 'fulfilled') {
+          const candidateRepos = reposResult.value
+            .filter((repo) => !repo.fork && !ignoredRepos.has(repo.name))
+            .sort((left, right) => new Date(right.updated_at) - new Date(left.updated_at));
+
+          adminAllRepos = candidateRepos;
+          if (isAdminRoute()) renderAdminAll();
+
+          const displayRepos = applySelectionOrder(candidateRepos);
+
+          const enrichedFeaturedRepos = await Promise.all(
+            displayRepos.map(async (repo) => {
+              try {
+                const [details, readmeContent] = await Promise.all([
+                  fetchJson(
+                    'https://api.github.com/repos/' + githubUser + '/' + repo.name,
+                    0,
+                    githubTimeoutMs
+                  ),
+                  fetchReadme(repo.name),
+                ]);
+
+                const readmeData = readmeContent ? parseReadme(readmeContent) : null;
+                return { ...repo, ...details, readmeData };
+              } catch (_error) {
+                return repo;
+              }
+            })
+          );
+
+          const finalRepos = buildDisplayRepos(applyCustomProjectData(enrichedFeaturedRepos));
+          syncedProjects = finalRepos.length;
+          renderProjects(finalRepos);
+          if (featuredRepoCount) featuredRepoCount.textContent = String(enrichedFeaturedRepos.length);
+        }
+
+        const awsRootDirs =
+          awsRootResult.status === 'fulfilled'
+            ? awsRootResult.value.filter((entry) => entry.type === 'dir' && entry.name !== 'PRACTICE')
+            : [];
+        const awsPracticeDirs =
+          awsPracticeResult.status === 'fulfilled'
+            ? awsPracticeResult.value.filter((entry) => entry.type === 'dir')
+            : [];
+
+        syncedLabs = awsRootDirs.length + awsPracticeDirs.length;
+        renderAwsLabs(awsRootDirs, awsPracticeDirs);
+
+        const hasAnySuccess =
+          userResult.status === 'fulfilled' ||
+          reposResult.status === 'fulfilled' ||
+          awsRootResult.status === 'fulfilled' ||
+          awsPracticeResult.status === 'fulfilled';
+
+        if (hasAnySuccess) {
+          sessionStorage.setItem(githubSyncTimestampKey, String(Date.now()));
+          const lastSyncStamp = getLastSyncStamp();
+          setProjectSyncStatus(
+            'GitHub sync complete',
+            'Projects: ' + syncedProjects + ' | AWS labs: ' + syncedLabs + (lastSyncStamp ? ' | Last update: ' + lastSyncStamp : '')
+          );
+          return;
+        }
+
+        const firstError =
+          userResult.reason || reposResult.reason || awsRootResult.reason || awsPracticeResult.reason;
+
+        if (firstError && firstError.rateLimited) {
+          setProjectSyncStatus(
+            hasPublishedSnapshot ? 'Published snapshot active' : 'GitHub API rate limit reached',
+            hasPublishedSnapshot
+              ? 'Live refresh is rate-limited; published project data remains available.'
+              : 'Showing fallback cards now. Retry in a few minutes.'
+          );
+          return;
+        }
+
+        setProjectSyncStatus(
+          hasPublishedSnapshot ? 'Published snapshot active' : 'Fallback mode active',
+          hasPublishedSnapshot
+            ? 'Live refresh failed; published project data remains available.'
+            : 'GitHub sync failed, so the baked-in cards remain visible.'
+        );
+      };
+
+      const setScrollProgress = () => {
+        const scrollTop = window.scrollY;
+        const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = maxScroll > 0 ? (scrollTop / maxScroll) * 100 : 0;
+        document.body.style.setProperty('--scroll-progress', progress + '%');
+      };
+
+      const setActiveLink = () => {
+        if (!sections.length || !navLinks.length) return;
+
+        let currentId = sections[0].id;
+
+        sections.forEach((section) => {
+          const offset = section.offsetTop - 120;
+          if (window.scrollY >= offset) currentId = section.id;
+        });
+
+        navLinks.forEach((link) => {
+          const isActive = link.getAttribute('href') === '#' + currentId;
+          link.classList.toggle('is-active', isActive);
+          if (isActive) {
+            link.setAttribute('aria-current', 'page');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+        });
+      };
+
+      function applyAdminSettings() {
+        const settings = loadAdminSettings();
+        const resumeViewLink = document.getElementById('resume-view-link');
+        const resumeDownloadLink = document.getElementById('resume-download-link');
+        const resumeDriveLink = document.getElementById('resume-drive-link');
+        const resumePreview = document.getElementById('resume-preview');
+        const resumeActions = document.getElementById('resume-actions');
+        if (resumeActions) resumeActions.hidden = settings.resume.enabled === false;
+        if (resumeViewLink) resumeViewLink.href = settings.resume.localUrl || '#';
+        if (resumeDownloadLink) {
+          resumeDownloadLink.href = 'resume.pdf';
+          resumeDownloadLink.download = 'Aditya-Nair-Resume.pdf';
+          resumeDownloadLink.hidden = settings.resume.enabled === false;
+        }
+        if (resumeDriveLink) {
+          resumeDriveLink.href = settings.resume.driveUrl || '#';
+          resumeDriveLink.hidden = !settings.resume.driveUrl;
+        }
+        if (resumePreview) {
+          resumePreview.src = settings.resume.localUrl || 'about:blank';
+          resumePreview.hidden = settings.resume.enabled === false || settings.resume.showPreview === false || !settings.resume.localUrl;
+        }
+
+        const heroEyebrow = document.querySelector('.hero-copy .eyebrow');
+        if (heroEyebrow && settings.hero.eyebrow) heroEyebrow.textContent = settings.hero.eyebrow;
+
+        const heroTagline = document.querySelector('.hero-copy .tagline');
+        if (heroTagline && settings.hero.tagline) heroTagline.textContent = settings.hero.tagline;
+
+        const heroBio = document.querySelector('.hero-copy .section-copy');
+        if (heroBio && settings.hero.bio) heroBio.textContent = settings.hero.bio;
+
+        const aboutHeading = document.querySelector('#about h2');
+        if (aboutHeading && settings.about.heading) aboutHeading.textContent = settings.about.heading;
+
+        const aboutPara = document.querySelector('#about .section-copy');
+        if (aboutPara && settings.about.paragraph) aboutPara.textContent = settings.about.paragraph;
+
+        const skillsGrid = document.querySelector('.skills-grid');
+        if (skillsGrid && settings.skills) {
+          skillsGrid.innerHTML = '';
+          settings.skills.filter((s) => s.show).forEach((skill) => {
+            const card = document.createElement('div');
+            card.className = 'skill-card reveal is-visible';
+            card.innerHTML = '<i class="' + skill.icon + '" aria-hidden="true"></i><span>' + skill.name + '</span><small>' + skill.desc + '</small>';
+            skillsGrid.appendChild(card);
+          });
+        }
+
+        const eduList = document.querySelector('#resume .resume-entries');
+        if (eduList && settings.resume.education) {
+          eduList.innerHTML = '';
+          settings.resume.education.forEach((edu) => {
+            const entry = document.createElement('div');
+            entry.className = 'resume-entry';
+            entry.innerHTML = '<strong>' + edu.degree + '</strong><span class="resume-institution">' + edu.institution + '</span><span class="resume-dates">' + edu.dates + '</span>';
+            eduList.appendChild(entry);
+          });
+        }
+
+        const certEntries = document.querySelectorAll('#resume .resume-card')[1]?.querySelector('.resume-entries');
+        if (certEntries && settings.resume.certifications) {
+          certEntries.innerHTML = '';
+          settings.resume.certifications.forEach((cert) => {
+            const entry = document.createElement('div');
+            entry.className = 'resume-entry';
+            entry.innerHTML = '<strong>' + cert.name + '</strong><span class="resume-detail">' + cert.detail + '</span>';
+            certEntries.appendChild(entry);
+          });
+        }
+
+        const focusTags = document.querySelector('#resume .resume-tags');
+        if (focusTags && settings.resume.focusTags) {
+          focusTags.innerHTML = '';
+          settings.resume.focusTags.forEach((tag) => {
+            const span = document.createElement('span');
+            span.className = 'resume-tag';
+            span.textContent = tag;
+            focusTags.appendChild(span);
+          });
+        }
+      }
+
+      applyTheme(getActiveTheme(), { persist: false });
+
+      if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+          const nextTheme = getActiveTheme() === 'dark' ? 'light' : 'dark';
+          applyTheme(nextTheme, { persist: true });
+        });
+      }
+
+      if (systemDarkScheme) {
+        const syncSystemTheme = (event) => {
+          if (getStoredThemePreference()) return;
+          applyTheme(event.matches ? 'dark' : 'light', { persist: false });
+        };
+
+        if (typeof systemDarkScheme.addEventListener === 'function') {
+          systemDarkScheme.addEventListener('change', syncSystemTheme);
+        } else if (typeof systemDarkScheme.addListener === 'function') {
+          systemDarkScheme.addListener(syncSystemTheme);
+        }
+      }
+
+      if (prefersReducedMotion || !('IntersectionObserver' in window)) {
+        revealItems.forEach((item) => item.classList.add('is-visible'));
+      } else {
+        const revealObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              entry.target.classList.add('is-visible');
+              revealObserver.unobserve(entry.target);
+            });
+          },
+          { threshold: 0.14 }
+        );
+
+        revealItems.forEach((item) => revealObserver.observe(item));
+
+        // Ensure no section stays hidden in static captures or edge viewport cases.
+        window.setTimeout(() => {
+          revealItems.forEach((item) => item.classList.add('is-visible'));
+        }, 1800);
+      }
+
+      setScrollProgress();
+      setActiveLink();
+
+      const footerYear = document.getElementById('footer-year');
+      if (footerYear) footerYear.textContent = String(new Date().getFullYear());
+
+      let scrollFrameRequested = false;
+      window.addEventListener(
+        'scroll',
+        () => {
+          if (scrollFrameRequested) return;
+          scrollFrameRequested = true;
+          window.requestAnimationFrame(() => {
+            setScrollProgress();
+            setActiveLink();
+            scrollFrameRequested = false;
+          });
+        },
+        { passive: true }
+      );
+
+      if (form && formStatus) {
+        form.addEventListener(
+          'blur',
+          (event) => {
+            const target = event.target;
+            if (!(target instanceof HTMLInputElement) && !(target instanceof HTMLTextAreaElement)) return;
+            if (!target.name || target.name === '_honey') return;
+
+            let message = '';
+            const trimmedValue = target.value.trim();
+            if (!target.checkValidity()) {
+              message = target.validationMessage;
+            } else if (target.name === 'name' && trimmedValue.length < 2) {
+              message = 'Enter at least 2 characters.';
+            } else if (target.name === 'subject' && trimmedValue.length < 3) {
+              message = 'Add a short subject.';
+            } else if (target.name === 'message' && trimmedValue.length < 20) {
+              message = 'Message should be at least 20 characters.';
+            }
+
+            setFieldError(target.name, message);
+          },
+          true
+        );
+
+        form.addEventListener('input', (event) => {
+          const target = event.target;
+          if (!(target instanceof HTMLInputElement) && !(target instanceof HTMLTextAreaElement)) return;
+          if (!target.name) return;
+          setFieldError(target.name, '');
+          if (formStatus.textContent) setFormStatus('', '');
+        });
+
+        form.addEventListener('submit', async (event) => {
+          event.preventDefault();
+
+          const honeyField = form.elements.namedItem('_honey');
+          if (honeyField instanceof HTMLInputElement && honeyField.value.trim()) {
+            setFormStatus(contactSuccessMessage, 'success');
+            form.reset();
+            clearFormErrors();
+            return;
+          }
+
+          const validation = validateContactForm();
+          if (!validation.isValid) {
+            setFormStatus('Fix the highlighted fields and try again.', 'error');
+            const firstInvalid = validation.firstInvalidField ? form.elements.namedItem(validation.firstInvalidField) : null;
+            if (firstInvalid instanceof HTMLElement) firstInvalid.focus();
+            return;
+          }
+
+          setSubmitState(true);
+          setFormStatus('Sending message…', '');
+
+          const payload = new FormData();
+          const name = form.elements.namedItem('name');
+          const email = form.elements.namedItem('email');
+          const subject = form.elements.namedItem('subject');
+          const message = form.elements.namedItem('message');
+
+          payload.append('name', name instanceof HTMLInputElement ? name.value.trim() : '');
+          payload.append('email', email instanceof HTMLInputElement ? email.value.trim() : '');
+          payload.append('subject', subject instanceof HTMLInputElement ? subject.value.trim() : '');
+          payload.append('_subject', subject instanceof HTMLInputElement ? subject.value.trim() : 'Portfolio contact form');
+          payload.append('_replyto', email instanceof HTMLInputElement ? email.value.trim() : '');
+          payload.append('message', message instanceof HTMLTextAreaElement ? message.value.trim() : '');
+          payload.append('_captcha', 'false');
+          payload.append('_template', 'table');
+
+          try {
+            await submitContactForm(payload);
+
+            form.reset();
+            clearFormErrors();
+            setFormStatus(contactSuccessMessage, 'success');
+          } catch (error) {
+            setFormStatus(
+              error instanceof DOMException && error.name === 'AbortError'
+                ? 'The request timed out. Please try again or email adityanairtech@gmail.com directly.'
+                : error instanceof Error
+                  ? error.message
+                  : 'Unable to send right now. Please email adityanairtech@gmail.com directly.',
+              'error'
+            );
+          } finally {
+            setSubmitState(false);
+          }
+        });
+      }
+
+const adminRoute = '#/admin';
+const adminStorageKey = 'portfolio-admin-settings-v2';
+let publishedLayer = null;
+const adminPassHash = 'ff55f72437c725a197df05024402d593fe87e1d08f7412cb301667e52ea66a94';
+let adminSessionUnlocked = false;
+let adminAllRepos = [];
+let lastRenderedLabs = [];
+let adminRendered = false;
+
+const defaultAdminSettings = {
+  version: 2,
+  identity: {
+    name: 'Aditya Nair',
+    role: 'Cloud // DevOps // Builder',
+    email: 'adityanairtech@gmail.com',
+    github: 'https://github.com/ADITYANAIR01',
+    linkedin: 'https://linkedin.com/in/aditya-nair01',
+    location: 'Pune · India',
+    timezone: '',
+    availability: 'Open to work',
+  },
+  stats: {
+    featuredLabel: 'Featured repos',
+    featuredNote: 'GitHub-backed projects',
+    labsLabel: 'AWS lab builds',
+    labsNote: 'Hands-on cloud collection',
+  },
+  footer: { line: '© {year} {name} — Cloud & DevOps, live from GitHub.' },
+  hero: {
+    eyebrow: '',
+    role: 'Cloud · DevOps · IoT — shipping real systems, not slides',
+    tagline: 'Cloud & DevOps Student building practical systems across AWS, automation, and IoT.',
+    bio: 'I like turning cloud concepts into working builds, from scalable AWS setups to connected device dashboards. My focus is hands-on learning: ship the idea, understand the architecture, and improve it until it feels reliable.',
+  },
+  arsenal: {
+    kicker: 'AWS arsenal',
+    title: 'Projects done on AWS',
+    lede: 'Every entry is a hands-on lab that survived contact with the console — networking, compute, storage, and scaling, repeated until boring.',
+    note: 'Modules from the AWS collection',
+    labs: {},
+  },
+  resume: {
+    kicker: 'Track record',
+    title: 'Education & certifications',
+    lede: 'Studying the cloud full-time, certifying the fundamentals, and keeping a short list of tools that earn their keep.',
+    enabled: true,
+    localUrl: 'resume.pdf',
+    driveUrl: '',
+    showPreview: true,
+    lastUpdated: '',
+    version: '',
+    education: [
+      { degree: 'MCA - Cloud Computing', institution: 'Ajeenkya DY Patil University, Pune', dates: '2025 - Present' },
+      { degree: 'BCA - Cloud Computing', institution: 'SAGE University, Bhopal', dates: '2022 - 2025' },
+    ],
+    certifications: [
+      { name: 'AWS Cloud Practitioner', detail: 'Foundational cloud knowledge' },
+      { name: 'AWS Solutions Architect', detail: 'Architecture & deployment' },
+    ],
+    focusTags: ['AWS Cloud', 'Linux', 'Docker', 'DevOps', 'Python', 'IoT'],
+  },
+  skills: {
+    kicker: 'Daily drivers',
+    title: 'Tools I keep reaching for',
+    lede: 'The short list — what survives every project, across cloud, automation, and system-focused work.',
+    items: [
+      { name: 'AWS', icon: 'fa-brands fa-aws', desc: 'Architecture labs, networking, compute, storage, scaling, and monitoring.', show: true },
+      { name: 'Linux', icon: 'fa-brands fa-linux', desc: 'Comfortable navigating the terminal and understanding the host environment.', show: true },
+      { name: 'Docker', icon: 'fa-brands fa-docker', desc: 'Interested in repeatable packaging and container-first deployment thinking.', show: true },
+      { name: 'Git', icon: 'fa-brands fa-git-alt', desc: 'Version-controlled workflows for experiments, projects, and iterative learning.', show: true },
+      { name: 'Python', icon: 'fa-brands fa-python', desc: 'Used in backend experiments, automation ideas, and AWS-related project work.', show: true },
+      { name: 'Bash', icon: 'fa-solid fa-terminal', desc: 'Shell commands, setup steps, and practical scripting for dev and ops tasks.', show: true },
+    ],
+  },
+  about: {
+    kicker: 'Dossier',
+    heading: 'Developer first, tech enthusiast always.',
+    paragraph: "I'm Aditya Nair, a Cloud & DevOps student who enjoys exploring how systems behave behind the scenes. I'm especially drawn to AWS architecture, deployment patterns, Linux tooling, and projects that make infrastructure feel tangible instead of abstract. Whether it's a scalable web app, a VPC built from scratch, or an IoT dashboard, I like breaking things down, learning the moving parts, and building them back in a cleaner way.",
+    points: [
+      { title: 'Cloud Labs', text: 'Hands-on AWS practice around ALB, ASG, EC2, S3 hosting, VPC design, and cloud-native workflows.' },
+      { title: 'Automation Mindset', text: 'I care about repeatable workflows, good structure, and understanding the operational side of software.' },
+      { title: 'Practical Learning', text: 'I prefer building real things that expose tradeoffs, architecture decisions, and debugging lessons.' },
+    ],
+  },
+  contact: {
+    kicker: '06 — Contact',
+    megaA: 'Let’s build',
+    megaB: 'something real.',
+    intro: 'If you want to talk about cloud engineering, AWS practice, DevOps learning paths, or a project idea, send a message.',
+    note: '',
+  },
+  projects: { selected: [], maxProjects: 3, customData: {}, manual: [] },
+};
+
+let loadedAdminSettings = null;
+
+function cloneDefaults() { return JSON.parse(JSON.stringify(defaultAdminSettings)); }
+
+function mergeSection(base, incoming) {
+  if (!incoming || typeof incoming !== 'object' || Array.isArray(incoming)) return base;
+  const out = { ...base };
+  Object.keys(base).forEach((k) => {
+    const v = incoming[k];
+    if (v === undefined) return;
+    if (Array.isArray(base[k])) { if (Array.isArray(v)) out[k] = v; return; }
+    if (base[k] && typeof base[k] === 'object') { out[k] = mergeSection(base[k], v); return; }
+    if (typeof v === typeof base[k]) out[k] = v;
+  });
+  return out;
+}
+
+function normalizeSettings(parsed) {
+  const d = cloneDefaults();
+  if (!parsed || typeof parsed !== 'object') return d;
+  const out = { ...d };
+  ['identity', 'stats', 'footer', 'hero', 'arsenal', 'resume', 'skills', 'about', 'contact', 'projects'].forEach((k) => {
+    if (parsed[k]) out[k] = mergeSection(d[k], parsed[k]);
+  });
+  if (!Array.isArray(out.skills.items)) out.skills.items = d.skills.items;
+  if (!Array.isArray(out.resume.education)) out.resume.education = d.resume.education;
+  if (!Array.isArray(out.resume.certifications)) out.resume.certifications = d.resume.certifications;
+  if (!Array.isArray(out.resume.focusTags)) out.resume.focusTags = d.resume.focusTags;
+  if (!out.resume.localUrl) out.resume.localUrl = d.resume.localUrl;
+  if (!Array.isArray(out.about.points) || !out.about.points.length) out.about.points = d.about.points;
+  if (!Array.isArray(out.projects.selected)) out.projects.selected = [];
+  if (typeof out.projects.maxProjects !== 'number') out.projects.maxProjects = 3;
+  if (!out.projects.customData || typeof out.projects.customData !== 'object') out.projects.customData = {};
+  if (!Array.isArray(out.projects.manual)) out.projects.manual = [];
+  if (!out.arsenal.labs || typeof out.arsenal.labs !== 'object') out.arsenal.labs = {};
+  return out;
+}
+
+function deepMerge(base, over) {
+  if (Array.isArray(over)) return over.slice();
+  if (over && typeof over === 'object') {
+    const out = (base && typeof base === 'object' && !Array.isArray(base)) ? { ...base } : {};
+    Object.keys(over).forEach((k) => { out[k] = deepMerge(out[k], over[k]); });
+    return out;
+  }
+  return over === undefined ? base : over;
+}
+
+function loadAdminSettings() {
+  if (loadedAdminSettings) return loadedAdminSettings;
+  try {
+    const raw = localStorage.getItem(adminStorageKey);
+    if (raw) { loadedAdminSettings = normalizeSettings(JSON.parse(raw)); return loadedAdminSettings; }
+  } catch (_error) { /* fall through to defaults */ }
+  loadedAdminSettings = cloneDefaults();
+  return loadedAdminSettings;
+}
+
+function saveAdminSettings(settings) {
+  const normalized = normalizeSettings(settings);
+  try {
+    localStorage.setItem(adminStorageKey, JSON.stringify(normalized));
+    loadedAdminSettings = normalized;
+  } catch (error) {
+    loadedAdminSettings = normalized;
+    console.error('Unable to persist admin settings locally.', error);
+  }
+}
+
+function clearAdminSettings() {
+  try { localStorage.removeItem(adminStorageKey); } catch (_error) {}
+  loadedAdminSettings = null;
+}
+
+async function sha256Hex(text) {
+  const data = new TextEncoder().encode(String(text));
+  const digest = await crypto.subtle.digest('SHA-256', data);
+  return Array.from(new Uint8Array(digest)).map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+
+function isAdminRoute() { return window.location.hash === adminRoute; }
+
+async function unlockAdmin() {
+  if (adminSessionUnlocked) return true;
+  let phrase = '';
+  try { phrase = window.prompt('Enter admin passphrase:') || ''; } catch (_error) { return false; }
+  if (!phrase) return false;
+  const hash = await sha256Hex(phrase).catch(() => null);
+  if (hash && hash === adminPassHash) { adminSessionUnlocked = true; return true; }
+  return false;
+}
+
+function enterAdmin() {
+  document.body.classList.add('admin-mode');
+  document.getElementById('admin-view').hidden = false;
+  renderAdminAll();
+}
+
+function leaveAdmin() {
+  document.body.classList.remove('admin-mode');
+  document.getElementById('admin-view').hidden = true;
+}
+
+async function handleAdminRoute() {
+  if (!isAdminRoute()) { leaveAdmin(); return; }
+  if (!adminSessionUnlocked) {
+    const ok = await unlockAdmin();
+    if (!ok) { window.location.hash = '#top'; return; }
+  }
+  enterAdmin();
+}
+
+function setText(id, value) {
+  const el = document.getElementById(id);
+  if (el && value !== undefined && value !== null) el.textContent = String(value);
+}
+
+function labOverride(key) {
+  try {
+    const s = loadedAdminSettings || loadAdminSettings();
+    const o = s.arsenal.labs[key];
+    return o && typeof o === 'object' ? o : null;
+  } catch (_e) { return null; }
+}
+
+function trackLab(key) {
+  if (key && !lastRenderedLabs.includes(key)) lastRenderedLabs.push(key);
+}
+
+function applyIdentity(s) {
+  const id = s.identity;
+  const brandName = document.getElementById('brand-name');
+  if (brandName) {
+    brandName.textContent = id.name;
+    const role = document.createElement('small');
+    role.id = 'brand-role';
+    role.textContent = id.role.toUpperCase();
+    brandName.appendChild(role);
+  }
+  const brandLink = document.getElementById('brand-link');
+  if (brandLink) brandLink.setAttribute('aria-label', id.name + ' — back to top');
+  const parts = id.name.trim().split(/\s+/);
+  setText('hero-name-a', parts[0] || 'Aditya');
+  setText('hero-name-b', parts.slice(1).join(' ') || '');
+  setText('foot-mark', id.name);
+  const avail = document.querySelector('.avail');
+  if (avail && avail.lastChild) avail.lastChild.textContent = id.availability ? ' ' + id.availability : '';
+  setText('profile-location', id.location);
+  setText('profile-timezone', id.timezone);
+  document.querySelectorAll('[data-link="github"]').forEach((a) => { a.href = id.github; });
+  document.querySelectorAll('[data-link="linkedin"]').forEach((a) => { a.href = id.linkedin; });
+  document.querySelectorAll('[data-link="email"]').forEach((a) => { a.href = 'mailto:' + id.email; });
+  document.querySelectorAll('[data-link-label="email"]').forEach((el) => { el.textContent = id.email; });
+  contactEndpoint = 'https://formsubmit.co/ajax/' + id.email;
+  if (form) form.setAttribute('action', 'https://formsubmit.co/' + id.email);
+}
+
+function applyAdminSettings() {
+  const s = loadAdminSettings();
+  applyIdentity(s);
+  setText('stat-featured-label', s.stats.featuredLabel);
+  setText('stat-featured-note', s.stats.featuredNote);
+  setText('stat-labs-label', s.stats.labsLabel);
+  setText('stat-labs-note', s.stats.labsNote);
+  const eyebrow = document.querySelector('.hero-copy .eyebrow');
+  if (eyebrow && s.hero.eyebrow) eyebrow.textContent = s.hero.eyebrow;
+  setText('hero-role', s.hero.role);
+  const tagline = document.querySelector('.hero-copy .tagline');
+  if (tagline && s.hero.tagline) tagline.textContent = s.hero.tagline;
+  const bio = document.querySelector('.hero-copy .section-copy');
+  if (bio && s.hero.bio) bio.textContent = s.hero.bio;
+  setText('arsenal-kicker', s.arsenal.kicker);
+  setText('arsenal-title', s.arsenal.title);
+  setText('arsenal-lede', s.arsenal.lede);
+  setText('arsenal-count-note', s.arsenal.note);
+  setText('resume-kicker', s.resume.kicker);
+  setText('resume-title', s.resume.title);
+  setText('resume-lede', s.resume.lede);
+  const resumeViewLink = document.getElementById('resume-view-link');
+  const resumeDownloadLink = document.getElementById('resume-download-link');
+  const resumeDriveLink = document.getElementById('resume-drive-link');
+  const resumePreview = document.getElementById('resume-preview');
+  const resumeActions = document.getElementById('resume-actions');
+  if (resumeActions) resumeActions.hidden = s.resume.enabled === false;
+  if (resumeViewLink) resumeViewLink.href = s.resume.localUrl || '#';
+  if (resumeDownloadLink) {
+    resumeDownloadLink.href = 'resume.pdf';
+    resumeDownloadLink.download = 'Aditya-Nair-Resume.pdf';
+    resumeDownloadLink.hidden = s.resume.enabled === false;
+  }
+  if (resumeDriveLink) { resumeDriveLink.href = s.resume.driveUrl || '#'; resumeDriveLink.hidden = !s.resume.driveUrl; }
+  if (resumePreview) { resumePreview.src = s.resume.localUrl || 'about:blank'; resumePreview.hidden = s.resume.enabled === false || s.resume.showPreview === false || !s.resume.localUrl; }
+  const eduList = document.querySelector('#resume .resume-entries');
+  if (eduList && Array.isArray(s.resume.education)) {
+    eduList.innerHTML = '';
+    s.resume.education.forEach((edu) => {
+      const entry = document.createElement('div');
+      entry.className = 'resume-entry';
+      const strong = document.createElement('strong'); strong.textContent = edu.degree || '';
+      const inst = document.createElement('span'); inst.className = 'resume-institution'; inst.textContent = edu.institution || '';
+      const dates = document.createElement('span'); dates.className = 'resume-dates'; dates.textContent = edu.dates || '';
+      entry.append(strong, inst, dates);
+      eduList.appendChild(entry);
+    });
+  }
+  const certEntries = document.querySelectorAll('#resume .resume-card')[1]?.querySelector('.resume-entries');
+  if (certEntries && Array.isArray(s.resume.certifications)) {
+    certEntries.innerHTML = '';
+    s.resume.certifications.forEach((cert) => {
+      const entry = document.createElement('div');
+      entry.className = 'resume-entry';
+      const strong = document.createElement('strong'); strong.textContent = cert.name || '';
+      const detail = document.createElement('span'); detail.className = 'resume-detail'; detail.textContent = cert.detail || '';
+      entry.append(strong, detail);
+      certEntries.appendChild(entry);
+    });
+  }
+  const focusTags = document.querySelector('#resume .resume-tags');
+  if (focusTags && Array.isArray(s.resume.focusTags)) {
+    focusTags.innerHTML = '';
+    s.resume.focusTags.forEach((tag) => {
+      const span = document.createElement('span');
+      span.className = 'resume-tag';
+      span.textContent = tag;
+      focusTags.appendChild(span);
+    });
+  }
+  setText('skills-kicker', s.skills.kicker);
+  setText('skills-title', s.skills.title);
+  setText('skills-lede', s.skills.lede);
+  const skillsGrid = document.querySelector('.skills-grid');
+  if (skillsGrid && Array.isArray(s.skills.items)) {
+    skillsGrid.innerHTML = '';
+    s.skills.items.filter((sk) => sk.show !== false).forEach((sk) => {
+      const card = document.createElement('div');
+      card.className = 'skill-card reveal is-visible';
+      const icon = document.createElement('i');
+      icon.className = sk.icon || 'fa-solid fa-cube';
+      icon.setAttribute('aria-hidden', 'true');
+      const name = document.createElement('span'); name.textContent = sk.name || '';
+      const desc = document.createElement('small'); desc.textContent = sk.desc || '';
+      card.append(icon, name, desc);
+      skillsGrid.appendChild(card);
+    });
+  }
+  setText('about-kicker', s.about.kicker);
+  const aboutHeading = document.querySelector('#about h2');
+  if (aboutHeading && s.about.heading) aboutHeading.textContent = s.about.heading;
+  const aboutPara = document.querySelector('#about .section-copy');
+  if (aboutPara && s.about.paragraph) aboutPara.textContent = s.about.paragraph;
+  const points = document.querySelectorAll('#about .about-point');
+  points.forEach((pt, i) => {
+    const data = s.about.points[i];
+    if (!data) return;
+    const t = pt.querySelector('strong');
+    const d = pt.querySelector('span');
+    if (t) t.textContent = data.title || '';
+    if (d) d.textContent = data.text || '';
+  });
+  setText('contact-kicker', s.contact.kicker);
+  setText('contact-mega-a', s.contact.megaA);
+  setText('contact-mega-b', s.contact.megaB);
+  setText('contact-intro', s.contact.intro);
+  setText('contact-form-note', s.contact.note);
+  const footerLine = document.getElementById('footer-line');
+  if (footerLine) {
+    const yearEl = document.getElementById('footer-year');
+    const yearText = yearEl ? yearEl.textContent : String(new Date().getFullYear());
+    const rendered = String(s.footer.line).replace('{name}', s.identity.name);
+    const split = rendered.split('{year}');
+    footerLine.textContent = '';
+    const pre = document.createElement('span'); pre.textContent = split[0];
+    footerLine.appendChild(pre);
+    const y = document.createElement('span'); y.id = 'footer-year'; y.textContent = yearText;
+    footerLine.appendChild(y);
+    if (split.length > 1) { const post = document.createElement('span'); post.textContent = split.slice(1).join('{year}'); footerLine.appendChild(post); }
+  }
+}
+
+function applySelectionOrder(list) {
+  const settings = loadAdminSettings();
+  const selected = settings.projects.selected;
+  const max = settings.projects.maxProjects;
+  if (!selected.length) {
+    const sorted = [...list].sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
+    return max > 0 ? sorted.slice(0, max) : sorted;
+  }
+  const byName = new Map(list.map((r) => [r.name, r]));
+  const picked = selected.filter((n) => byName.has(n)).map((n) => byName.get(n));
+  const rest = list.filter((r) => !selected.includes(r.name));
+  const ordered = [...picked, ...rest];
+  return max > 0 ? ordered.slice(0, max) : ordered;
+}
+
+function applyCustomProjectData(repos) {
+  const settings = loadAdminSettings();
+  const custom = settings.projects.customData;
+  return repos.map((repo) => {
+    const c = custom[repo.name];
+    if (!c) return repo;
+    return {
+      ...repo,
+      customName: c.displayName || '',
+      customUrl: c.url || '',
+      readmeData: {
+        description: c.description || repo.readmeData?.description || repo.description || '',
+        services: c.services || repo.readmeData?.services || [],
+      },
+    };
+  });
+}
+
+function renderAdminAll() {
+  renderAdminPicked();
+  renderAdminAllRepos();
+  renderAdminManual();
+  renderAdminSkills();
+  renderAdminResume();
+  renderAdminLabs();
+  fillAdminForms();
+  const maxInput = document.getElementById('admin-max');
+  if (maxInput) maxInput.value = String(loadAdminSettings().projects.maxProjects);
+  if (adminRendered) return;
+  adminRendered = true;
+  bindAdminEvents();
+}
+
+function fillAdminForms() {
+  const s = loadAdminSettings();
+  const set = (id, v) => { const el = document.getElementById(id); if (el) el.value = v ?? ''; };
+  const check = (id, v) => { const el = document.getElementById(id); if (el) el.checked = v !== false; };
+  set('adm-name', s.identity.name); set('adm-role', s.identity.role);
+  set('adm-email', s.identity.email); set('adm-github', s.identity.github); set('adm-linkedin', s.identity.linkedin);
+  set('adm-location', s.identity.location); set('adm-timezone', s.identity.timezone); set('adm-availability', s.identity.availability);
+  set('adm-stat-featured-label', s.stats.featuredLabel); set('adm-stat-featured-note', s.stats.featuredNote);
+  set('adm-stat-labs-label', s.stats.labsLabel); set('adm-stat-labs-note', s.stats.labsNote);
+  set('adm-footer-line', s.footer.line);
+  set('adm-hero-eyebrow', s.hero.eyebrow); set('adm-hero-role', s.hero.role);
+  set('adm-hero-tagline', s.hero.tagline); set('adm-hero-bio', s.hero.bio);
+  set('adm-arsenal-kicker', s.arsenal.kicker); set('adm-arsenal-title', s.arsenal.title);
+  set('adm-arsenal-lede', s.arsenal.lede); set('adm-arsenal-note', s.arsenal.note);
+  set('adm-resume-kicker', s.resume.kicker); set('adm-resume-title', s.resume.title); set('adm-resume-lede', s.resume.lede);
+  check('admin-resume-enabled', s.resume.enabled);
+  set('admin-resume-local-url', s.resume.localUrl); set('admin-resume-drive-url', s.resume.driveUrl);
+  check('admin-resume-preview', s.resume.showPreview);
+  set('admin-resume-updated', s.resume.lastUpdated); set('admin-resume-version', s.resume.version);
+  set('admin-focus-tags', s.resume.focusTags.join(', '));
+  set('adm-skills-kicker', s.skills.kicker); set('adm-skills-title', s.skills.title); set('adm-skills-lede', s.skills.lede);
+  set('adm-about-kicker', s.about.kicker); set('adm-about-heading', s.about.heading); set('adm-about-para', s.about.paragraph);
+  s.about.points.forEach((p, i) => { set('adm-point-' + i + '-title', p.title); set('adm-point-' + i + '-text', p.text); });
+  set('adm-contact-kicker', s.contact.kicker); set('adm-contact-mega-a', s.contact.megaA);
+  set('adm-contact-mega-b', s.contact.megaB); set('adm-contact-intro', s.contact.intro); set('adm-contact-note', s.contact.note);
+}
+
+function renderAdminPicked() {
+  const listEl = document.getElementById('admin-picked-list');
+  const emptyEl = document.getElementById('admin-picked-empty');
+  if (!listEl || !emptyEl) return;
+  const settings = loadAdminSettings();
+  const names = settings.projects.selected;
+  if (!names.length) { emptyEl.style.display = 'block'; listEl.innerHTML = ''; return; }
+  emptyEl.style.display = 'none';
+  listEl.innerHTML = '';
+  names.forEach((name) => {
+    const li = document.createElement('li');
+    li.className = 'admin-picked-item';
+    li.draggable = true;
+    li.dataset.repo = name;
+    const grip = document.createElement('span');
+    grip.className = 'admin-grip';
+    grip.innerHTML = '<i class="fa-solid fa-grip-vertical" aria-hidden="true"></i>';
+    const nameEl = document.createElement('span');
+    nameEl.className = 'admin-picked-name';
+    nameEl.textContent = name;
+    const editBtn = document.createElement('button');
+    editBtn.className = 'admin-edit-btn';
+    editBtn.textContent = 'Edit';
+    editBtn.addEventListener('click', () => openProjectEditModal(name));
+    const mkMove = (label, aria, dir, disabled) => {
+      const b = document.createElement('button');
+      b.className = 'admin-edit-btn'; b.style.marginLeft = '0'; b.textContent = label;
+      b.setAttribute('aria-label', aria + ' ' + name);
+      if (disabled) b.disabled = true;
+      b.addEventListener('click', () => movePicked(name, dir));
+      return b;
+    };
+    li.append(grip, nameEl, editBtn,
+      mkMove('↑', 'Move up', -1, names.indexOf(name) === 0),
+      mkMove('↓', 'Move down', 1, names.indexOf(name) === names.length - 1));
+    listEl.appendChild(li);
+  });
+  bindPickedDrag(listEl);
+}
+
+function renderAdminAllRepos() {
+  const listEl = document.getElementById('admin-all-list');
+  const emptyEl = document.getElementById('admin-all-empty');
+  if (!listEl || !emptyEl) return;
+  if (!adminAllRepos.length) { emptyEl.textContent = 'No repos loaded.'; return; }
+  emptyEl.style.display = 'none';
+  const settings = loadAdminSettings();
+  const selectedSet = new Set(settings.projects.selected);
+  listEl.innerHTML = '';
+  adminAllRepos.forEach((repo) => {
+    const li = document.createElement('li');
+    li.className = 'admin-repo';
+    const info = document.createElement('div');
+    info.className = 'admin-repo-info';
+    const nameRow = document.createElement('div');
+    nameRow.className = 'admin-repo-name';
+    const nameSpan = document.createElement('span');
+    nameSpan.textContent = repo.name;
+    nameRow.appendChild(nameSpan);
+    if (repo.language) {
+      const lang = document.createElement('span');
+      lang.className = 'admin-repo-lang';
+      lang.textContent = repo.language;
+      nameRow.appendChild(lang);
+    }
+    info.appendChild(nameRow);
+    if (repo.description) {
+      const desc = document.createElement('p');
+      desc.className = 'admin-repo-desc';
+      desc.textContent = repo.description;
+      info.appendChild(desc);
+    }
+    const meta = document.createElement('div');
+    meta.className = 'admin-repo-meta';
+    meta.textContent = 'Updated ' + (repo.updated_at ? formatDate(repo.updated_at) : '?');
+    info.appendChild(meta);
+    const toggle = document.createElement('input');
+    toggle.type = 'checkbox';
+    toggle.className = 'admin-toggle';
+    toggle.checked = selectedSet.has(repo.name);
+    toggle.setAttribute('aria-label', 'Show ' + repo.name);
+    toggle.addEventListener('change', () => { toggleRepo(repo.name, toggle.checked); });
+    li.append(info, toggle);
+    listEl.appendChild(li);
+  });
+}
+
+function toggleRepo(name, isOn) {
+  const settings = loadAdminSettings();
+  const idx = settings.projects.selected.indexOf(name);
+  if (isOn && idx === -1) settings.projects.selected.push(name);
+  if (!isOn && idx !== -1) settings.projects.selected.splice(idx, 1);
+  saveAdminSettings(settings);
+  renderAdminPicked();
+  syncToggles(settings);
+}
+
+function syncToggles(settings) {
+  const selectedSet = new Set(settings.projects.selected);
+  document.querySelectorAll('#admin-all-list .admin-toggle').forEach((toggle) => {
+    const li = toggle.closest('.admin-repo');
+    const nameEl = li ? li.querySelector('.admin-repo-name > span') : null;
+    toggle.checked = nameEl ? selectedSet.has(nameEl.textContent) : false;
+  });
+}
+
+function movePicked(name, dir) {
+  const settings = loadAdminSettings();
+  const arr = settings.projects.selected;
+  const i = arr.indexOf(name);
+  const j = i + dir;
+  if (i === -1 || j < 0 || j >= arr.length) return;
+  const tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+  saveAdminSettings(settings);
+  renderAdminPicked();
+}
+
+function bindPickedDrag(listEl) {
+  let dragEl = null;
+  listEl.querySelectorAll('.admin-picked-item').forEach((item) => {
+    item.addEventListener('dragstart', (e) => {
+      dragEl = item;
+      item.style.opacity = '0.5';
+      e.dataTransfer.effectAllowed = 'move';
+      try { e.dataTransfer.setData('text/plain', item.dataset.repo); } catch (_err) {}
+    });
+    item.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      if (!dragEl || dragEl === item || !listEl.contains(dragEl)) return;
+      const rect = item.getBoundingClientRect();
+      const after = (e.clientY - rect.top) > rect.height / 2;
+      if (after) listEl.insertBefore(dragEl, item.nextSibling);
+      else listEl.insertBefore(dragEl, item);
+    });
+    item.addEventListener('dragend', () => {
+      if (dragEl) dragEl.style.opacity = '';
+      dragEl = null;
+      persistPickedOrder();
+    });
+  });
+}
+
+function persistPickedOrder() {
+  const listEl = document.getElementById('admin-picked-list');
+  if (!listEl) return;
+  const ordered = Array.from(listEl.querySelectorAll('.admin-picked-item')).map((el) => el.dataset.repo);
+  const settings = loadAdminSettings();
+  settings.projects.selected = ordered;
+  saveAdminSettings(settings);
+}
+
+function renderAdminManual() {
+  const listEl = document.getElementById('admin-manual-list');
+  const emptyEl = document.getElementById('admin-manual-empty');
+  if (!listEl) return;
+  const settings = loadAdminSettings();
+  if (!Array.isArray(settings.projects.manual)) settings.projects.manual = [];
+  const manual = settings.projects.manual;
+  if (emptyEl) emptyEl.style.display = manual.length ? 'none' : 'block';
+  listEl.innerHTML = '';
+  const mk = (label, aria, fn, disabled) => {
+    const b = document.createElement('button');
+    b.className = 'admin-edit-btn'; b.style.marginLeft = '0'; b.textContent = label;
+    if (aria) b.setAttribute('aria-label', aria);
+    if (disabled) b.disabled = true;
+    b.addEventListener('click', fn);
+    return b;
+  };
+  manual.forEach((m, idx) => {
+    const li = document.createElement('li');
+    li.className = 'admin-picked-item';
+    const nameEl = document.createElement('span');
+    nameEl.className = 'admin-picked-name';
+    nameEl.textContent = (m.name || 'Untitled') + (m.url ? '' : ' (no link)');
+    li.append(
+      nameEl,
+      mk('Edit', 'Edit manual project ' + (m.name || ''), () => openManualEditModal(m.id)),
+      mk('Delete', 'Delete manual project ' + (m.name || ''), () => {
+        if (!confirm('Delete manual project "' + (m.name || '') + '"?')) return;
+        settings.projects.manual.splice(idx, 1);
+        saveAdminSettings(settings);
+        renderAdminManual();
+        setAdminStatus('Manual project deleted. Save & Apply to publish.', '');
+      }),
+      mk('↑', 'Move up', () => moveManual(idx, -1), idx === 0),
+      mk('↓', 'Move down', () => moveManual(idx, 1), idx === manual.length - 1)
+    );
+    listEl.appendChild(li);
+  });
+}
+
+function moveManual(idx, dir) {
+  const settings = loadAdminSettings();
+  const arr = settings.projects.manual;
+  const j = idx + dir;
+  if (j < 0 || j >= arr.length) return;
+  const tmp = arr[idx]; arr[idx] = arr[j]; arr[j] = tmp;
+  saveAdminSettings(settings);
+  renderAdminManual();
+}
+
+function openManualEditModal(id) {
+  const settings = loadAdminSettings();
+  const isNew = id === null || id === undefined;
+  const m = isNew ? { name: '', description: '', services: [], url: '', icon: '' } : (settings.projects.manual.find((x) => x.id === id) || {});
+  openEditModal(isNew ? 'Add manual project' : 'Edit manual project', [
+    { key: 'name', label: 'Project name', value: m.name || '' },
+    { key: 'description', label: 'Description', value: m.description || '' },
+    { key: 'services', label: 'Skills used (comma separated)', value: (m.services || []).join(', ') },
+    { key: 'url', label: 'GitHub / live link URL', value: m.url || '' },
+    { key: 'icon', label: 'Icon (Font Awesome class, empty = cube)', value: m.icon || '' },
+  ], (data) => {
+    if (!data.name.trim()) { setAdminStatus('Manual project needs a name.', 'error'); return; }
+    const record = {
+      id: isNew ? Date.now().toString(36) : m.id,
+      name: data.name.trim(),
+      description: data.description.trim(),
+      services: data.services.split(',').map((x) => x.trim()).filter(Boolean).slice(0, 4),
+      url: data.url.trim(),
+      icon: data.icon.trim() || 'fa-solid fa-cube',
+    };
+    if (isNew) settings.projects.manual.push(record);
+    else {
+      const i = settings.projects.manual.findIndex((x) => x.id === id);
+      if (i !== -1) settings.projects.manual[i] = record;
+    }
+    saveAdminSettings(settings);
+    renderAdminManual();
+    setAdminStatus('Manual project drafted. Save & Apply to publish.', 'success');
+  });
+}
+
+function renderAdminSkills() {
+  const listEl = document.getElementById('admin-skills-list');
+  if (!listEl) return;
+  const settings = loadAdminSettings();
+  listEl.innerHTML = '';
+  settings.skills.items.forEach((skill, idx) => {
+    const li = document.createElement('li');
+    li.className = 'admin-picked-item';
+    li.draggable = true;
+    li.dataset.idx = String(idx);
+    const grip = document.createElement('span');
+    grip.className = 'admin-grip';
+    grip.innerHTML = '<i class="fa-solid fa-grip-vertical" aria-hidden="true"></i>';
+    const nameEl = document.createElement('span');
+    nameEl.className = 'admin-picked-name';
+    nameEl.textContent = skill.name + (skill.show === false ? ' (hidden)' : '');
+    const editBtn = document.createElement('button');
+    editBtn.className = 'admin-edit-btn';
+    editBtn.textContent = 'Edit';
+    editBtn.addEventListener('click', () => openSkillEditModal(idx));
+    const delBtn = document.createElement('button');
+    delBtn.className = 'admin-edit-btn';
+    delBtn.textContent = 'Delete';
+    delBtn.setAttribute('aria-label', 'Delete skill ' + skill.name);
+    delBtn.addEventListener('click', () => {
+      if (!confirm('Delete skill "' + skill.name + '"?')) return;
+      settings.skills.items.splice(idx, 1);
+      saveAdminSettings(settings);
+      renderAdminSkills();
+      setAdminStatus('Skill deleted. Save & Apply to publish.', '');
+    });
+    const toggle = document.createElement('input');
+    toggle.type = 'checkbox';
+    toggle.className = 'admin-toggle';
+    toggle.checked = skill.show !== false;
+    toggle.setAttribute('aria-label', 'Show skill ' + skill.name);
+    toggle.addEventListener('change', () => {
+      settings.skills.items[idx].show = toggle.checked;
+      saveAdminSettings(settings);
+      renderAdminSkills();
+    });
+    li.append(grip, nameEl, editBtn, delBtn, toggle);
+    listEl.appendChild(li);
+  });
+  bindSkillDrag(listEl, settings);
+}
+
+function bindSkillDrag(listEl, settings) {
+  let dragIdx = null;
+  listEl.querySelectorAll('.admin-picked-item').forEach((item) => {
+    item.addEventListener('dragstart', (e) => {
+      dragIdx = Array.from(listEl.children).indexOf(item);
+      item.style.opacity = '0.5';
+      e.dataTransfer.effectAllowed = 'move';
+      try { e.dataTransfer.setData('text/plain', item.dataset.idx); } catch (_e) {}
+    });
+    item.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      const targetIdx = Array.from(listEl.children).indexOf(item);
+      if (dragIdx === null || dragIdx === targetIdx) return;
+      if (dragIdx < targetIdx) listEl.insertBefore(listEl.children[dragIdx], item.nextSibling);
+      else listEl.insertBefore(listEl.children[dragIdx], item);
+      dragIdx = targetIdx;
+    });
+    item.addEventListener('dragend', () => {
+      item.style.opacity = '';
+      const ordered = Array.from(listEl.querySelectorAll('.admin-picked-item')).map((el) => settings.skills.items[Number(el.dataset.idx)]);
+      settings.skills.items = ordered;
+      saveAdminSettings(settings);
+      renderAdminSkills();
+    });
+  });
+}
+
+function openSkillEditModal(idx) {
+  const settings = loadAdminSettings();
+  const skill = settings.skills.items[idx] || { name: '', icon: '', desc: '', show: true };
+  openEditModal(idx === -1 ? 'Add skill' : 'Edit skill', [
+    { key: 'name', label: 'Name', value: skill.name || '' },
+    { key: 'icon', label: 'Icon (Font Awesome class, e.g. fa-brands fa-aws)', value: skill.icon || '' },
+    { key: 'desc', label: 'Description', value: skill.desc || '' },
+  ], (data) => {
+    if (!data.name.trim()) { setAdminStatus('Skill needs a name.', 'error'); return; }
+    const record = { name: data.name.trim(), icon: data.icon.trim() || 'fa-solid fa-cube', desc: data.desc.trim(), show: skill.show !== false };
+    if (idx === -1) settings.skills.items.push(record);
+    else settings.skills.items[idx] = record;
+    saveAdminSettings(settings);
+    renderAdminSkills();
+    setAdminStatus('Skill saved in draft. Save & Apply to publish.', 'success');
+  });
+}
+
+function renderAdminResume() {
+  const settings = loadAdminSettings();
+  const eduList = document.getElementById('admin-education-list');
+  const certList = document.getElementById('admin-certs-list');
+  const focusInput = document.getElementById('admin-focus-tags');
+  const resumeEnabled = document.getElementById('admin-resume-enabled');
+  const resumeLocalUrl = document.getElementById('admin-resume-local-url');
+  const resumeDriveUrl = document.getElementById('admin-resume-drive-url');
+  const resumePreview = document.getElementById('admin-resume-preview');
+  const resumeUpdated = document.getElementById('admin-resume-updated');
+  const resumeVersion = document.getElementById('admin-resume-version');
+  if (resumeEnabled) resumeEnabled.checked = settings.resume.enabled !== false;
+  if (resumeLocalUrl) resumeLocalUrl.value = settings.resume.localUrl || '';
+  if (resumeDriveUrl) resumeDriveUrl.value = settings.resume.driveUrl || '';
+  if (resumePreview) resumePreview.checked = settings.resume.showPreview !== false;
+  if (resumeUpdated) resumeUpdated.value = settings.resume.lastUpdated || '';
+  if (resumeVersion) resumeVersion.value = settings.resume.version || '';
+  if (eduList) {
+    eduList.innerHTML = '';
+    settings.resume.education.forEach((edu, idx) => {
+      const div = document.createElement('div');
+      div.style.cssText = 'padding:0.8rem;border:1px solid var(--line);border-radius:12px;margin-bottom:0.6rem;';
+      const title = document.createElement('strong'); title.textContent = edu.degree || '(empty)';
+      const inst = document.createElement('div'); inst.style.cssText = 'color:var(--accent2);font-size:0.9rem'; inst.textContent = edu.institution || '';
+      const dates = document.createElement('div'); dates.style.cssText = 'color:var(--muted);font-size:0.85rem'; dates.textContent = edu.dates || '';
+      div.append(title, inst, dates);
+      const row = document.createElement('div');
+      row.style.cssText = 'display:flex;gap:0.5rem;margin-top:0.5rem;';
+      const editBtn = document.createElement('button');
+      editBtn.className = 'admin-edit-btn'; editBtn.style.marginLeft = '0'; editBtn.textContent = 'Edit';
+      editBtn.addEventListener('click', () => openEditModal('Education', [
+        { key: 'degree', label: 'Degree', value: edu.degree },
+        { key: 'institution', label: 'Institution', value: edu.institution },
+        { key: 'dates', label: 'Dates', value: edu.dates },
+      ], (data) => { settings.resume.education[idx] = data; saveAdminSettings(settings); renderAdminResume(); }));
+      const delBtn = document.createElement('button');
+      delBtn.className = 'admin-edit-btn'; delBtn.style.marginLeft = '0'; delBtn.textContent = 'Delete';
+      delBtn.addEventListener('click', () => {
+        if (!confirm('Delete this education entry?')) return;
+        settings.resume.education.splice(idx, 1);
+        saveAdminSettings(settings);
+        renderAdminResume();
+      });
+      row.append(editBtn, delBtn);
+      div.appendChild(row);
+      eduList.appendChild(div);
+    });
+  }
+  if (certList) {
+    certList.innerHTML = '';
+    settings.resume.certifications.forEach((cert, idx) => {
+      const div = document.createElement('div');
+      div.style.cssText = 'padding:0.8rem;border:1px solid var(--line);border-radius:12px;margin-bottom:0.6rem;';
+      const title = document.createElement('strong'); title.textContent = cert.name || '(empty)';
+      const detail = document.createElement('div'); detail.style.cssText = 'color:var(--muted);font-size:0.85rem'; detail.textContent = cert.detail || '';
+      div.append(title, detail);
+      const row = document.createElement('div');
+      row.style.cssText = 'display:flex;gap:0.5rem;margin-top:0.5rem;';
+      const editBtn = document.createElement('button');
+      editBtn.className = 'admin-edit-btn'; editBtn.style.marginLeft = '0'; editBtn.textContent = 'Edit';
+      editBtn.addEventListener('click', () => openEditModal('Certification', [
+        { key: 'name', label: 'Name', value: cert.name },
+        { key: 'detail', label: 'Detail', value: cert.detail },
+      ], (data) => { settings.resume.certifications[idx] = data; saveAdminSettings(settings); renderAdminResume(); }));
+      const delBtn = document.createElement('button');
+      delBtn.className = 'admin-edit-btn'; delBtn.style.marginLeft = '0'; delBtn.textContent = 'Delete';
+      delBtn.addEventListener('click', () => {
+        if (!confirm('Delete this certification?')) return;
+        settings.resume.certifications.splice(idx, 1);
+        saveAdminSettings(settings);
+        renderAdminResume();
+      });
+      row.append(editBtn, delBtn);
+      div.appendChild(row);
+      certList.appendChild(div);
+    });
+  }
+  if (focusInput) focusInput.value = settings.resume.focusTags.join(', ');
+}
+
+function renderAdminLabs() {
+  const listEl = document.getElementById('admin-lab-list');
+  const emptyEl = document.getElementById('admin-lab-empty');
+  if (!listEl) return;
+  const settings = loadAdminSettings();
+  const names = [...lastRenderedLabs];
+  Object.keys(settings.arsenal.labs).forEach((k) => { if (!names.includes(k)) names.push(k); });
+  if (!names.length) { if (emptyEl) emptyEl.style.display = 'block'; listEl.innerHTML = ''; return; }
+  if (emptyEl) emptyEl.style.display = 'none';
+  listEl.innerHTML = '';
+  names.forEach((name) => {
+    const o = settings.arsenal.labs[name] || {};
+    const div = document.createElement('div');
+    div.style.cssText = 'padding:0.8rem;border:1px solid var(--line);border-radius:12px;margin-bottom:0.6rem;';
+    const title = document.createElement('strong'); title.textContent = o.title || name;
+    const note = document.createElement('div');
+    note.style.cssText = 'color:var(--muted);font-size:0.85rem;margin-top:0.2rem;';
+    note.textContent = o.desc || 'Using built-in text' + (o.services && o.services.length ? ' · ' + o.services.join(', ') : '');
+    div.append(title, note);
+    const row = document.createElement('div');
+    row.style.cssText = 'display:flex;gap:0.5rem;margin-top:0.5rem;';
+    const editBtn = document.createElement('button');
+    editBtn.className = 'admin-edit-btn'; editBtn.style.marginLeft = '0'; editBtn.textContent = 'Edit';
+    editBtn.addEventListener('click', () => openEditModal('Lab: ' + name, [
+      { key: 'title', label: 'Title (empty = built-in)', value: o.title || '' },
+      { key: 'desc', label: 'Description (empty = built-in)', value: o.desc || '' },
+      { key: 'services', label: 'Services, comma separated (empty = built-in)', value: (o.services || []).join(', ') },
+    ], (data) => {
+      const services = data.services.split(',').map((x) => x.trim()).filter(Boolean);
+      if (!data.title.trim() && !data.desc.trim() && !services.length) delete settings.arsenal.labs[name];
+      else settings.arsenal.labs[name] = { title: data.title.trim(), desc: data.desc.trim(), services };
+      saveAdminSettings(settings);
+      renderAdminLabs();
+      setAdminStatus('Lab override drafted. Save & Apply to publish.', 'success');
+    }));
+    row.appendChild(editBtn);
+    if (settings.arsenal.labs[name]) {
+      const resetBtn = document.createElement('button');
+      resetBtn.className = 'admin-edit-btn'; resetBtn.style.marginLeft = '0'; resetBtn.textContent = 'Reset';
+      resetBtn.addEventListener('click', () => {
+        delete settings.arsenal.labs[name];
+        saveAdminSettings(settings);
+        renderAdminLabs();
+      });
+      row.appendChild(resetBtn);
+    }
+    div.appendChild(row);
+    listEl.appendChild(div);
+  });
+}
+
+function openEditModal(title, fields, onSave) {
+  const modal = document.getElementById('admin-edit-modal');
+  const titleEl = document.getElementById('admin-edit-title');
+  const fieldsEl = document.getElementById('admin-edit-fields');
+  if (!modal || !titleEl || !fieldsEl) return;
+  titleEl.textContent = 'Edit ' + title;
+  fieldsEl.innerHTML = '';
+  fields.forEach((field) => {
+    const label = document.createElement('label');
+    label.style.cssText = 'display:block;margin-bottom:0.8rem;';
+    const span = document.createElement('span');
+    span.style.cssText = 'display:block;margin-bottom:0.4rem;font-weight:600;font-size:0.9rem;';
+    span.textContent = field.label;
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.className = 'admin-input';
+    input.value = field.value;
+    input.dataset.key = field.key;
+    input.setAttribute('autocomplete', 'off');
+    label.append(span, input);
+    fieldsEl.appendChild(label);
+  });
+  modal.hidden = false;
+  const saveBtn = document.getElementById('admin-edit-save');
+  const cancelBtn = document.getElementById('admin-edit-cancel');
+  const handleSave = () => {
+    const data = {};
+    fieldsEl.querySelectorAll('input').forEach((input) => { data[input.dataset.key] = input.value; });
+    onSave(data);
+    modal.hidden = true;
+    saveBtn.removeEventListener('click', handleSave);
+    cancelBtn.removeEventListener('click', handleCancel);
+  };
+  const handleCancel = () => {
+    modal.hidden = true;
+    saveBtn.removeEventListener('click', handleSave);
+    cancelBtn.removeEventListener('click', handleCancel);
+  };
+  saveBtn.addEventListener('click', handleSave);
+  cancelBtn.addEventListener('click', handleCancel);
+}
+
+function openProjectEditModal(repoName) {
+  const settings = loadAdminSettings();
+  const custom = settings.projects.customData[repoName] || {};
+  const repo = adminAllRepos.find((r) => r.name === repoName);
+  openEditModal('Project: ' + repoName, [
+    { key: 'displayName', label: 'Display name (empty = repo name)', value: custom.displayName || '' },
+    { key: 'description', label: 'Description (empty = GitHub/README)', value: custom.description || repo?.description || '' },
+    { key: 'services', label: 'Services (comma separated, empty = auto)', value: (custom.services || []).join(', ') },
+    { key: 'url', label: 'Link URL (empty = repo URL)', value: custom.url || '' },
+  ], (data) => {
+    settings.projects.customData[repoName] = {
+      displayName: data.displayName.trim(),
+      description: data.description,
+      services: data.services.split(',').map((x) => x.trim()).filter(Boolean),
+      url: data.url.trim(),
+    };
+    saveAdminSettings(settings);
+    setAdminStatus('Project "' + repoName + '" drafted. Save & Apply to publish.', 'success');
+  });
+}
+
+function setAdminStatus(msg, type) {
+  const el = document.getElementById('admin-status');
+  if (!el) return;
+  el.textContent = msg;
+  el.className = 'admin-status' + (type ? ' is-' + type : '');
+}
+
+function readInput(id) {
+  const el = document.getElementById(id);
+  return el ? el.value : '';
+}
+
+function bindAdminEvents() {
+  document.querySelectorAll('[data-admin-step]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const input = document.getElementById('admin-max');
+      if (!input) return;
+      const step = parseInt(btn.dataset.adminStep, 10);
+      input.value = String(Math.min(12, Math.max(0, (parseInt(input.value, 10) || 0) + step)));
+    });
+  });
+  const filterEl = document.getElementById('admin-filter');
+  if (filterEl) {
+    filterEl.addEventListener('input', () => {
+      const term = filterEl.value.trim().toLowerCase();
+      document.querySelectorAll('#admin-all-list .admin-repo').forEach((row) => {
+        row.style.display = row.textContent.toLowerCase().includes(term) ? '' : 'none';
+      });
+    });
+  }
+  document.querySelectorAll('[data-admin-tab]').forEach((tab) => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('[data-admin-tab]').forEach((t) => {
+        t.classList.remove('is-active');
+        t.setAttribute('aria-selected', 'false');
+      });
+      tab.classList.add('is-active');
+      tab.setAttribute('aria-selected', 'true');
+      document.querySelectorAll('.admin-tab-content').forEach((c) => { c.hidden = true; });
+      const target = document.getElementById('admin-tab-' + tab.dataset.adminTab);
+      if (target) target.hidden = false;
+    });
+  });
+  document.getElementById('admin-exit-btn')?.addEventListener('click', () => { window.location.hash = '#top'; });
+  document.getElementById('admin-add-education')?.addEventListener('click', () => {
+    const settings = loadAdminSettings();
+    settings.resume.education.push({ degree: '', institution: '', dates: '' });
+    saveAdminSettings(settings);
+    renderAdminResume();
+  });
+  document.getElementById('admin-add-cert')?.addEventListener('click', () => {
+    const settings = loadAdminSettings();
+    settings.resume.certifications.push({ name: '', detail: '' });
+    saveAdminSettings(settings);
+    renderAdminResume();
+  });
+  document.getElementById('admin-add-skill')?.addEventListener('click', () => { openSkillEditModal(-1); });
+  document.getElementById('admin-add-manual')?.addEventListener('click', () => { openManualEditModal(null); });
+  document.getElementById('admin-save')?.addEventListener('click', () => {
+    const settings = loadAdminSettings();
+    const email = readInput('adm-email').trim() || settings.identity.email;
+    settings.identity = {
+      name: readInput('adm-name').trim() || settings.identity.name,
+      role: readInput('adm-role').trim() || settings.identity.role,
+      email,
+      github: readInput('adm-github').trim() || settings.identity.github,
+      linkedin: readInput('adm-linkedin').trim() || settings.identity.linkedin,
+      location: readInput('adm-location').trim(),
+      timezone: readInput('adm-timezone').trim(),
+      availability: readInput('adm-availability').trim(),
+    };
+    settings.stats = {
+      featuredLabel: readInput('adm-stat-featured-label'), featuredNote: readInput('adm-stat-featured-note'),
+      labsLabel: readInput('adm-stat-labs-label'), labsNote: readInput('adm-stat-labs-note'),
+    };
+    settings.footer = { line: readInput('adm-footer-line') || settings.footer.line };
+    settings.hero = {
+      eyebrow: readInput('adm-hero-eyebrow'), role: readInput('adm-hero-role'),
+      tagline: readInput('adm-hero-tagline'), bio: readInput('adm-hero-bio'),
+    };
+    settings.arsenal.kicker = readInput('adm-arsenal-kicker');
+    settings.arsenal.title = readInput('adm-arsenal-title');
+    settings.arsenal.lede = readInput('adm-arsenal-lede');
+    settings.arsenal.note = readInput('adm-arsenal-note');
+    const maxInput = document.getElementById('admin-max');
+    if (maxInput) settings.projects.maxProjects = parseInt(maxInput.value, 10) || 0;
+    settings.resume.kicker = readInput('adm-resume-kicker');
+    settings.resume.title = readInput('adm-resume-title');
+    settings.resume.lede = readInput('adm-resume-lede');
+    const focusInput = document.getElementById('admin-focus-tags');
+    if (focusInput) settings.resume.focusTags = focusInput.value.split(',').map((x) => x.trim()).filter(Boolean);
+    const resumeEnabled = document.getElementById('admin-resume-enabled');
+    if (resumeEnabled) settings.resume.enabled = resumeEnabled.checked;
+    const resumeLocalUrl = document.getElementById('admin-resume-local-url');
+    if (resumeLocalUrl) settings.resume.localUrl = resumeLocalUrl.value.trim();
+    const resumeDriveUrl = document.getElementById('admin-resume-drive-url');
+    if (resumeDriveUrl) settings.resume.driveUrl = resumeDriveUrl.value.trim();
+    const resumePreview = document.getElementById('admin-resume-preview');
+    if (resumePreview) settings.resume.showPreview = resumePreview.checked;
+    const resumeUpdated = document.getElementById('admin-resume-updated');
+    if (resumeUpdated) settings.resume.lastUpdated = resumeUpdated.value;
+    const resumeVersion = document.getElementById('admin-resume-version');
+    if (resumeVersion) settings.resume.version = resumeVersion.value.trim();
+    settings.skills.kicker = readInput('adm-skills-kicker');
+    settings.skills.title = readInput('adm-skills-title');
+    settings.skills.lede = readInput('adm-skills-lede');
+    settings.about.kicker = readInput('adm-about-kicker');
+    settings.about.heading = readInput('adm-about-heading');
+    settings.about.paragraph = readInput('adm-about-para');
+    settings.about.points = [0, 1, 2].map((i) => ({
+      title: readInput('adm-point-' + i + '-title'),
+      text: readInput('adm-point-' + i + '-text'),
+    }));
+    settings.contact.kicker = readInput('adm-contact-kicker');
+    settings.contact.megaA = readInput('adm-contact-mega-a');
+    settings.contact.megaB = readInput('adm-contact-mega-b');
+    settings.contact.intro = readInput('adm-contact-intro');
+    settings.contact.note = readInput('adm-contact-note');
+    saveAdminSettings(settings);
+    applyAdminSettings();
+    setAdminStatus('Saving…', '');
+    initGitHubSync().then(() => setAdminStatus('Saved and portfolio updated!', 'success')).catch(() => setAdminStatus('Saved but sync failed.', 'error'));
+  });
+  document.getElementById('admin-reset')?.addEventListener('click', () => {
+    if (!confirm('Reset all settings to defaults?')) return;
+    clearAdminSettings();
+    loadedAdminSettings = null;
+    adminRendered = false;
+    renderAdminAll();
+    setAdminStatus('Reset to defaults. Save & Apply to publish.', '');
+  });
+  document.getElementById('admin-export')?.addEventListener('click', () => {
+    const settings = loadAdminSettings();
+    const blob = new Blob([JSON.stringify(settings, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'portfolio-settings-v2.json';
+    a.click();
+    URL.revokeObjectURL(url);
+    setAdminStatus('Settings exported.', 'success');
+  });
+  document.getElementById('admin-publish')?.addEventListener('click', () => {
+    const settings = loadAdminSettings();
+    const payload = { version: 2, exportedAt: new Date().toISOString(), generator: 'portfolio-admin', settings };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'published-settings.json';
+    a.click();
+    URL.revokeObjectURL(url);
+    setAdminStatus('Publish file downloaded — save it as portfolio/published-settings.json, commit, and push to publish globally.', 'success');
+  });
+  document.getElementById('admin-import')?.addEventListener('click', () => {
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.json';
+    input.addEventListener('change', () => {
+      const file = input.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          saveAdminSettings(normalizeSettings(JSON.parse(reader.result)));
+          loadedAdminSettings = null;
+          adminRendered = false;
+          renderAdminAll();
+          setAdminStatus('Settings imported. Save & Apply to publish.', 'success');
+        } catch (_e) { setAdminStatus('Invalid JSON file.', 'error'); }
+      };
+      reader.readAsText(file);
+    });
+    input.click();
+  });
+}
+      try {
+        if (isAdminRoute()) handleAdminRoute();
+        window.addEventListener('hashchange', handleAdminRoute);
+      } catch (_e) { /* ignore admin routing errors */ }
+
+      window.addEventListener('storage', (event) => {
+        if (event.key !== adminStorageKey) return;
+        loadedAdminSettings = null;
+        try {
+          applyAdminSettings();
+        } catch (error) {
+          console.error('Unable to apply updated admin settings.', error);
+        }
+      });
+
+      try {
+        applyAdminSettings();
+      } catch (error) {
+        console.error('Unable to apply saved admin settings.', error);
+      }
+
+      loadPublishedSnapshot().finally(() => initGitHubSync()).catch(() => {
+        setProjectSyncStatus(
+          hasPublishedSnapshot ? 'Published snapshot active' : 'Fallback mode active',
+          hasPublishedSnapshot
+            ? 'Live refresh failed; published project data remains available.'
+            : 'GitHub sync failed, so the baked-in cards remain visible.'
+        );
+      });
+
+      setTimeout(() => {
+        document.querySelectorAll('.reveal:not(.is-visible)').forEach((el) => el.classList.add('is-visible'));
+      }, 3000);
+    </script>
+  </body>
+</html>
