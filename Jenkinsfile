@@ -11,7 +11,7 @@ pipeline {
         sh '''
           python3.12 -m venv .venv
           . .venv/bin/activate
-          pip install -r requirements.txt
+          pip install -r requirement.txt
         '''
       }
     }
@@ -20,7 +20,7 @@ pipeline {
       steps {
         sh '''
           . .venv/bin/activate
-          python -m compileall -q app.py
+          python -m compileall -q hello.py
         '''
       }
     }
